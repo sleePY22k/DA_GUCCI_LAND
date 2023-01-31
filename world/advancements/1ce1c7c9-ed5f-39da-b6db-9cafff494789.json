@@ -293,6 +293,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2023-01-30 23:34:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-01-30 23:32:01 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2023-01-30 16:37:54 -0800"
@@ -358,6 +370,7 @@
       "apple": "2023-01-29 20:54:44 -0800",
       "cooked_cod": "2023-01-30 16:27:25 -0800",
       "mutton": "2023-01-29 20:43:54 -0800",
+      "bread": "2023-01-30 23:32:56 -0800",
       "glow_berries": "2023-01-29 20:30:40 -0800",
       "cooked_chicken": "2023-01-29 20:10:46 -0800"
     },
@@ -1024,6 +1037,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2023-01-29 21:52:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2023-01-30 23:34:05 -0800"
     },
     "done": true
   },
