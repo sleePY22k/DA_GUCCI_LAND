@@ -265,6 +265,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "sweet_berries": "2023-01-31 21:26:54 -0800",
       "porkchop": "2023-01-29 20:02:39 -0800",
       "tropical_fish": "2023-01-29 20:26:33 -0800",
       "rotten_flesh": "2023-01-29 21:18:00 -0800",
@@ -417,6 +418,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2023-01-31 21:28:05 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2023-01-29 20:33:45 -0800"
@@ -462,6 +469,12 @@
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2023-01-29 20:01:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-01-31 21:25:25 -0800"
     },
     "done": true
   },
@@ -784,15 +797,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2023-01-29 21:04:11 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2023-01-29 20:34:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2023-01-29 21:04:11 -0800"
     },
     "done": true
   },

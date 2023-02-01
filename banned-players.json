@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "5ac67cdf-e340-3c50-8de3-be5d6db3455d",
+    "name": "Untride",
+    "created": "2023-01-31 22:26:04 -0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
