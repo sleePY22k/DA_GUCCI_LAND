@@ -1,0 +1,132 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-02-01 17:03:41 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-02-01 17:08:43 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2023-02-01 17:01:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-02-01 17:01:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-02-01 17:00:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2023-02-01 17:02:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2023-02-01 17:08:43 -0800",
+      "minecraft:spider": "2023-02-01 17:02:31 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-02-01 17:02:32 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2023-02-01 17:00:03 -0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-02-01 17:02:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2023-02-01 17:01:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-02-01 17:01:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-02-01 16:58:53 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2023-02-01 17:11:13 -0800",
+      "minecraft:dark_forest": "2023-02-01 16:56:33 -0800",
+      "minecraft:sparse_jungle": "2023-02-01 17:12:02 -0800",
+      "minecraft:lukewarm_ocean": "2023-02-01 17:10:43 -0800",
+      "minecraft:river": "2023-02-01 17:11:15 -0800",
+      "minecraft:forest": "2023-02-01 17:12:44 -0800",
+      "minecraft:ocean": "2023-02-01 17:04:53 -0800",
+      "minecraft:old_growth_birch_forest": "2023-02-01 17:06:11 -0800",
+      "minecraft:plains": "2023-02-01 17:12:39 -0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

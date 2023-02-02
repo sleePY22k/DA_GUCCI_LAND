@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "1ce1c7c9-ed5f-39da-b6db-9cafff494789",
+    "name": "sleepy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

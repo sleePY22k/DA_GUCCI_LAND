@@ -1,18 +1,18 @@
-[20:33:00] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
-[20:33:01] [main/INFO]: Loading 3 mods:
+[15:41:14] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
+[15:41:14] [main/INFO]: Loading 3 mods:
 	- fabricloader 0.14.13
 	- java 19
 	- minecraft 1.19.3
-[20:33:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/mcserver/DA_UCCI_LAND/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:33:04] [main/INFO]: Building unoptimized datafixer
-[20:33:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:33:06] [main/INFO]: Loaded 7 recipes
-[20:33:07] [main/INFO]: Loaded 1179 advancements
-[20:33:07] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[20:33:07] [Server thread/INFO]: Loading properties
-[20:33:07] [Server thread/INFO]: Default game type: SURVIVAL
-[20:33:07] [Server thread/INFO]: Generating keypair
-[20:33:07] [Server console handler/ERROR]: Exception handling console input
+[15:41:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/mcserver/DA_UCCI_LAND/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:41:18] [main/INFO]: Building unoptimized datafixer
+[15:41:19] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:41:21] [main/INFO]: Loaded 7 recipes
+[15:41:21] [main/INFO]: Loaded 1179 advancements
+[15:41:22] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[15:41:22] [Server thread/INFO]: Loading properties
+[15:41:22] [Server thread/INFO]: Default game type: SURVIVAL
+[15:41:22] [Server thread/INFO]: Generating keypair
+[15:41:22] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:293) ~[?:?]
@@ -29,111 +29,380 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[20:33:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:33:07] [Server thread/INFO]: Using default channel type
-[20:33:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:33:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:33:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:33:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:33:08] [Server thread/INFO]: Preparing level "world"
-[20:33:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:33:11] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[20:33:11] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[20:33:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:33:11] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[20:33:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:33:11] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[20:33:12] [Worker-Main-7/INFO]: Preparing spawn area: 65%
-[20:33:12] [Server thread/INFO]: Time elapsed: 3240 ms
-[20:33:12] [Server thread/INFO]: Done (4.261s)! For help, type "help"
-[20:35:20] [Server thread/INFO]: sleepy[/127.0.0.1:32705] logged in with entity id 164 at (-122.22991885397516, 63.0, -20.165920394368882)
-[20:35:20] [Server thread/INFO]: sleepy joined the game
-[20:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
-[20:58:46] [Server thread/INFO]: sleepy lost connection: Disconnected
-[20:58:46] [Server thread/INFO]: sleepy left the game
-[20:59:48] [Server thread/INFO]: Whitelist is now turned off
-[21:01:00] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:12141] logged in with entity id 5414 at (-145.7091929499857, 69.0, -23.370177044650035)
-[21:01:00] [Server thread/INFO]: NagaTheCutie joined the game
-[21:01:18] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:12150] logged in with entity id 5623 at (-135.40055386575295, 63.0, -26.20493088606035)
-[21:01:18] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[21:01:30] [Server thread/INFO]: NagaTheCutie lost connection: Timed out
-[21:01:30] [Server thread/INFO]: NagaTheCutie left the game
-[21:01:48] [Server thread/INFO]: TurtleNeckStew64 lost connection: Timed out
-[21:01:48] [Server thread/INFO]: TurtleNeckStew64 left the game
-[21:02:08] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:12173] logged in with entity id 5675 at (-145.7091929499857, 69.0, -23.370177044650035)
-[21:02:08] [Server thread/INFO]: NagaTheCutie joined the game
-[21:02:32] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
-[21:02:32] [Server thread/INFO]: NagaTheCutie left the game
-[21:09:12] [Server thread/INFO]: sleepy[/127.0.0.1:19039] logged in with entity id 5805 at (456.065586476812, 66.0, -261.33815179865485)
-[21:09:12] [Server thread/INFO]: sleepy joined the game
-[21:09:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2178ms or 43 ticks behind
-[21:20:33] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:1052] logged in with entity id 9079 at (-135.40055386575295, 63.0, -26.20493088606035)
-[21:20:33] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[21:20:47] [Server thread/INFO]: Whitelist is already turned off
-[21:21:47] [Server thread/INFO]: ineedmymnms[/[0:0:0:0:0:0:0:1]:1068] logged in with entity id 9962 at (-103.30000001192093, -54.0, -36.08914507812048)
-[21:21:47] [Server thread/INFO]: ineedmymnms joined the game
-[21:23:26] [Server thread/INFO]: Incorrect argument for command
-[21:23:26] [Server thread/INFO]: whitelist PichaStar<--[HERE]
-[21:25:25] [Server thread/INFO]: ineedmymnms has made the advancement [Sweet Dreams]
-[21:28:05] [Server thread/INFO]: ineedmymnms has made the advancement [Suit Up]
-[21:28:34] [Server thread/INFO]: sleepy has made the advancement [The Parrots and the Bats]
-[21:28:47] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
-[21:28:47] [Server thread/INFO]: ineedmymnms left the game
-[21:32:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=686, y=65, z=-74} class_2338{x=686, y=63, z=-74}
-[21:32:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=686, y=65, z=-74} class_2338{x=686, y=63, z=-74}
-[21:48:10] [Server thread/INFO]: TurtleNeckStew64 was slain by Zombie
-[21:52:56] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.5320236531202909
-[21:52:56] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.8694488917296326
-[21:52:56] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 1.2073278522991586
-[21:54:40] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.6159503236928856
-[21:54:40] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 1.0028235878456826
-[21:54:40] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 1.3896934560845864
-[21:54:40] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.6159204567348979
-[22:08:39] [Server thread/INFO]: sleepy has made the advancement [What a Deal!]
-[22:10:18] [Server thread/INFO]: [Not Secure] <sleepy> sleep
-[22:10:22] [Server thread/INFO]: [Not Secure] <sleepy> or you gay
-[22:21:35] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [What a Deal!]
-[22:25:07] [Server thread/INFO]: Untride[/[0:0:0:0:0:0:0:1]:24744] logged in with entity id 28732 at (-8.5, 77.0, 2.5)
-[22:25:07] [Server thread/INFO]: Untride joined the game
-[22:25:17] [Server thread/INFO]: Kicked Untride: Kicked by an operator
-[22:25:17] [Server thread/INFO]: Untride lost connection: Kicked by an operator
-[22:25:17] [Server thread/INFO]: Untride left the game
-[22:25:19] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> travis?
-[22:25:21] [Server thread/INFO]: Untride[/[0:0:0:0:0:0:0:1]:24753] logged in with entity id 28825 at (-8.5, 77.0, 2.5)
-[22:25:21] [Server thread/INFO]: Untride joined the game
-[22:25:23] [Server thread/INFO]: Whitelist is now turned on
-[22:25:28] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> whos this
-[22:25:31] [Server thread/INFO]: [Not Secure] <sleepy> who
-[22:25:35] [Server thread/INFO]: [Not Secure] <Untride> hallo
-[22:25:40] [Server thread/INFO]: [Not Secure] <Untride> xd
-[22:25:42] [Server thread/INFO]: [Not Secure] <Untride> just a random guy making a sofware to find server ip
-[22:25:46] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> 0_0
-[22:25:48] [Server thread/INFO]: [Not Secure] <sleepy> i have your ip meheir
-[22:25:50] [Server thread/INFO]: [Not Secure] <Untride> im bored af
-[22:25:54] [Server thread/INFO]: [Not Secure] <sleepy> meheir i have your ip now
-[22:25:57] [Server thread/INFO]: [Not Secure] <sleepy> get ban now
-[22:25:58] [Server thread/INFO]: [Not Secure] <sleepy> bai
-[22:26:03] [Server thread/INFO]: [Not Secure] <Untride> bai
-[22:26:04] [Server thread/INFO]: Banned Untride: Banned by an operator.
-[22:26:04] [Server thread/INFO]: Untride lost connection: You are banned from this server
-[22:26:04] [Server thread/INFO]: Untride left the game
-[22:28:52] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
-[22:28:52] [Server thread/INFO]: TurtleNeckStew64 left the game
-[22:31:59] [Server thread/INFO]: sleepy lost connection: Disconnected
-[22:31:59] [Server thread/INFO]: sleepy left the game
-[22:33:35] [Server thread/INFO]: Whitelist is already turned on
-[22:33:45] [Server thread/INFO]: Incorrect argument for command
-[22:33:45] [Server thread/INFO]: whitelist PichaStar<--[HERE]
-[22:33:57] [Server thread/INFO]: Added PichaStar to the whitelist
-[22:34:13] [Server thread/INFO]: Added Ping008 to the whitelist
-[22:34:20] [Server thread/INFO]: Stopping the server
-[22:34:20] [Server thread/INFO]: Stopping server
-[22:34:20] [Server thread/INFO]: Saving players
-[22:34:20] [Server thread/INFO]: Saving worlds
-[22:34:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:34:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:34:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:34:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:34:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:34:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:34:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:41:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:41:22] [Server thread/INFO]: Using default channel type
+[15:41:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:41:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:41:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:41:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:41:22] [Server thread/INFO]: Preparing level "world"
+[15:41:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:41:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:41:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:41:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:41:25] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:41:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[15:41:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:41:26] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[15:41:27] [Server thread/INFO]: Time elapsed: 3092 ms
+[15:41:27] [Server thread/INFO]: Done (4.215s)! For help, type "help"
+[15:50:47] [Server thread/INFO]: sleepy[/127.0.0.1:31321] logged in with entity id 189 at (-114.69999998807907, 63.0, -13.752220082021205)
+[15:50:47] [Server thread/INFO]: sleepy joined the game
+[16:03:15] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:7671] logged in with entity id 1966 at (-145.7091929499857, 69.0, -23.370177044650035)
+[16:03:15] [Server thread/INFO]: NagaTheCutie joined the game
+[16:03:24] [Server thread/INFO]: [Not Secure] <sleepy> ?
+[16:05:14] [Server thread/INFO]: [Not Secure] <sleepy> im building the iron golem farm
+[16:05:21] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ohhh
+[16:05:25] [Server thread/INFO]: [Not Secure] <NagaTheCutie> raymond hoe
+[16:05:32] [Server thread/INFO]: [Not Secure] <NagaTheCutie> do u know who took my armor
+[16:05:37] [Server thread/INFO]: [Not Secure] <sleepy> idk
+[16:05:42] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ok
+[16:06:37] [Server thread/INFO]: [Not Secure] <NagaTheCutie> where my bread go
+[16:06:46] [Server thread/INFO]: [Not Secure] <sleepy> just make some more bread
+[16:06:51] [Server thread/INFO]: [Not Secure] <sleepy> there is wheat up staris
+[16:06:55] [Server thread/INFO]: [Not Secure] <NagaTheCutie> we got no more
+[16:07:04] [Server thread/INFO]: [Not Secure] <sleepy> then go work in the field
+[16:07:09] [Server thread/INFO]: [Not Secure] <NagaTheCutie> naur
+[16:07:24] [Server thread/INFO]: [Not Secure] <sleepy> tobacco farm then
+[16:07:32] [Server thread/INFO]: [Not Secure] <NagaTheCutie> maybe
+[16:09:03] [Server thread/INFO]: [Not Secure] <NagaTheCutie> I just got a 6 vein
+[16:09:13] [Server thread/INFO]: [Not Secure] <sleepy> good
+[16:10:07] [Server thread/INFO]: [Not Secure] <NagaTheCutie> I got 8 vein
+[16:10:16] [Server thread/INFO]: [Not Secure] <sleepy> where u at bru
+[16:10:25] [Server thread/INFO]: [Not Secure] <NagaTheCutie> in the trenches
+[16:10:29] [Server thread/INFO]: [Not Secure] <NagaTheCutie> being a slave
+[16:10:52] [Server thread/INFO]: [Not Secure] <sleepy> bry
+[16:10:54] [Server thread/INFO]: [Not Secure] <sleepy> *bruh
+[16:11:05] [Server thread/INFO]: [Not Secure] <NagaTheCutie> got another diamond
+[16:11:11] [Server thread/INFO]: [Not Secure] <sleepy> gs
+[16:16:09] [Server thread/INFO]: [Not Secure] <sleepy> do you have iron
+[16:16:14] [Server thread/INFO]: [Not Secure] <NagaTheCutie> 2
+[16:16:25] [Server thread/INFO]: [Not Secure] <NagaTheCutie> we got zero iron in the chest bruh
+[16:16:33] [Server thread/INFO]: [Not Secure] <sleepy> we need iron
+[16:16:40] [Server thread/INFO]: [Not Secure] <sleepy> to make micart
+[16:16:58] [Server thread/INFO]: [Not Secure] <sleepy> i need 10 iron
+[16:17:09] [Server thread/INFO]: [Not Secure] <NagaTheCutie> i got 2 rn u want
+[16:17:17] [Server thread/INFO]: [Not Secure] <sleepy> naw
+[16:17:21] [Server thread/INFO]: [Not Secure] <sleepy> just mine 10 and give it to me
+[16:26:08] [Server thread/WARN]: NagaTheCutie moved too quickly! 0.033140457678406676,-0.12160004615783748,10.393492946551113
+[16:27:08] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@47976f39[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8238): You are not white-listed on this server!
+[16:27:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@47976f39[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8238) lost connection: You are not white-listed on this server!
+[16:27:08] [Server thread/WARN]: handleDisconnection() called twice
+[16:30:19] [Server thread/INFO]: [Not Secure] <NagaTheCutie> -18/34/224 is a mineshaft with a spawner
+[16:30:28] [Server thread/INFO]: [Not Secure] <sleepy> put it on discord
+[16:30:38] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6501217d[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8299): You are not white-listed on this server!
+[16:30:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@6501217d[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8299) lost connection: You are not white-listed on this server!
+[16:30:38] [Server thread/WARN]: handleDisconnection() called twice
+[16:30:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ee9e951[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8301): You are not white-listed on this server!
+[16:30:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ee9e951[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8301) lost connection: You are not white-listed on this server!
+[16:30:40] [Server thread/WARN]: handleDisconnection() called twice
+[16:30:42] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@53d84687[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8302): You are not white-listed on this server!
+[16:30:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@53d84687[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8302) lost connection: You are not white-listed on this server!
+[16:30:42] [Server thread/WARN]: handleDisconnection() called twice
+[16:30:51] [Server thread/INFO]: sleepy lost connection: Disconnected
+[16:30:51] [Server thread/INFO]: sleepy left the game
+[16:31:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1ae2a4ba[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8321): You are not white-listed on this server!
+[16:31:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ae2a4ba[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8321) lost connection: You are not white-listed on this server!
+[16:31:30] [Server thread/WARN]: handleDisconnection() called twice
+[16:32:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@9dbac8c[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8330): You are not white-listed on this server!
+[16:32:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@9dbac8c[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:8330) lost connection: You are not white-listed on this server!
+[16:32:17] [Server thread/WARN]: handleDisconnection() called twice
+[16:32:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@242475de[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1042): You are not white-listed on this server!
+[16:32:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@242475de[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1042) lost connection: You are not white-listed on this server!
+[16:32:52] [Server thread/WARN]: handleDisconnection() called twice
+[16:32:57] [Server thread/INFO]: Incorrect argument for command
+[16:32:57] [Server thread/INFO]: whitelist ping 008<--[HERE]
+[16:33:02] [Server thread/INFO]: Player is already whitelisted
+[16:33:21] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1906422c[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1049): You are not white-listed on this server!
+[16:33:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@1906422c[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1049) lost connection: You are not white-listed on this server!
+[16:33:21] [Server thread/WARN]: handleDisconnection() called twice
+[16:33:58] [Server thread/INFO]: Player is already whitelisted
+[16:34:33] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@695e216a[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1045): You are not white-listed on this server!
+[16:34:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@695e216a[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1045) lost connection: You are not white-listed on this server!
+[16:34:33] [Server thread/WARN]: handleDisconnection() called twice
+[16:35:34] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@23107f44[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1070): You are not white-listed on this server!
+[16:35:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@23107f44[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1070) lost connection: You are not white-listed on this server!
+[16:35:34] [Server thread/WARN]: handleDisconnection() called twice
+[16:36:38] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2127cef2[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1094): You are not white-listed on this server!
+[16:36:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@2127cef2[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1094) lost connection: You are not white-listed on this server!
+[16:36:38] [Server thread/WARN]: handleDisconnection() called twice
+[16:38:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@23cc2cca[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1113): You are not white-listed on this server!
+[16:38:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@23cc2cca[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1113) lost connection: You are not white-listed on this server!
+[16:38:10] [Server thread/WARN]: handleDisconnection() called twice
+[16:41:56] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@34a9d3be[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1228): You are not white-listed on this server!
+[16:41:56] [Server thread/INFO]: com.mojang.authlib.GameProfile@34a9d3be[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1228) lost connection: You are not white-listed on this server!
+[16:41:56] [Server thread/WARN]: handleDisconnection() called twice
+[16:42:36] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:1240] logged in with entity id 11026 at (-143.5, 62.5625, -26.5)
+[16:42:36] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[16:42:48] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> naga naga
+[16:42:52] [Server thread/INFO]: [Not Secure] <NagaTheCutie> join call
+[16:43:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2424b2c2[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1250): You are not white-listed on this server!
+[16:43:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@2424b2c2[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1250) lost connection: You are not white-listed on this server!
+[16:43:10] [Server thread/WARN]: handleDisconnection() called twice
+[16:44:04] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3251e799[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1264): You are not white-listed on this server!
+[16:44:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@3251e799[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1264) lost connection: You are not white-listed on this server!
+[16:44:04] [Server thread/WARN]: handleDisconnection() called twice
+[16:49:58] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5d8a1e57[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1407): You are not white-listed on this server!
+[16:49:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@5d8a1e57[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1407) lost connection: You are not white-listed on this server!
+[16:49:58] [Server thread/WARN]: handleDisconnection() called twice
+[16:50:13] [Server thread/INFO]: [Not Secure] <NagaTheCutie> -139/63/-23
+[16:50:19] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@70cbdacc[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1410): You are not white-listed on this server!
+[16:50:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@70cbdacc[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1410) lost connection: You are not white-listed on this server!
+[16:50:19] [Server thread/WARN]: handleDisconnection() called twice
+[16:50:23] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@69a1f981[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1412): You are not white-listed on this server!
+[16:50:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@69a1f981[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1412) lost connection: You are not white-listed on this server!
+[16:50:23] [Server thread/WARN]: handleDisconnection() called twice
+[16:51:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-51, y=64, z=389} class_2338{x=-50, y=62, z=388}
+[16:51:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-51, y=64, z=389} class_2338{x=-50, y=62, z=388}
+[16:51:50] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@28411903[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1438): You are not white-listed on this server!
+[16:51:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@28411903[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1438) lost connection: You are not white-listed on this server!
+[16:51:50] [Server thread/WARN]: handleDisconnection() called twice
+[16:52:13] [Server thread/INFO]: Removed Ping008 from the whitelist
+[16:52:19] [Server thread/INFO]: Added Ping008 to the whitelist
+[16:52:27] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@244af7fa[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1034): You are not white-listed on this server!
+[16:52:27] [Server thread/INFO]: com.mojang.authlib.GameProfile@244af7fa[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1034) lost connection: You are not white-listed on this server!
+[16:52:27] [Server thread/WARN]: handleDisconnection() called twice
+[16:52:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4ec4e655[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1045): You are not white-listed on this server!
+[16:52:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ec4e655[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:1045) lost connection: You are not white-listed on this server!
+[16:52:40] [Server thread/WARN]: handleDisconnection() called twice
+[16:53:20] [Server thread/INFO]: Removed Ping008 from the whitelist
+[16:53:55] [Server thread/INFO]: Added Ping008 to the whitelist
+[16:54:19] [Server thread/INFO]: sleepy[/127.0.0.1:1033] logged in with entity id 15739 at (-168.7495305657212, 24.0, -12.699999988079071)
+[16:54:19] [Server thread/INFO]: sleepy joined the game
+[16:54:35] [Server thread/INFO]: Made sleepy a server operator
+[16:55:52] [Server thread/INFO]: [sleepy: Reloaded the whitelist]
+[16:55:58] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@36087452[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:9181): You are not white-listed on this server!
+[16:55:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@36087452[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:9181) lost connection: You are not white-listed on this server!
+[16:55:58] [Server thread/WARN]: handleDisconnection() called twice
+[16:56:00] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3dbc0ce1[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:9183): You are not white-listed on this server!
+[16:56:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@3dbc0ce1[id=b0ad6375-bcce-3216-b824-c55d66f9d96a,name=Ping008,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:9183) lost connection: You are not white-listed on this server!
+[16:56:00] [Server thread/WARN]: handleDisconnection() called twice
+[16:56:27] [Server thread/INFO]: [sleepy: Whitelist is now turned off]
+[16:56:32] [Server thread/INFO]: Ping008[/[0:0:0:0:0:0:0:1]:9194] logged in with entity id 16382 at (-7.5, 88.0, 9.5)
+[16:56:32] [Server thread/INFO]: Ping008 joined the game
+[16:56:40] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[16:56:40] [Server thread/INFO]: Ping008 left the game
+[16:56:47] [Server thread/INFO]: [sleepy: Added Ping008 to the whitelist]
+[16:56:52] [Server thread/INFO]: [sleepy: Whitelist is now turned on]
+[16:58:27] [Server thread/INFO]: Ping008[/[0:0:0:0:0:0:0:1]:9215] logged in with entity id 16725 at (-10.969656848300522, 89.0, 10.318343363830365)
+[16:58:27] [Server thread/INFO]: Ping008 joined the game
+[16:58:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-12, y=89, z=13}
+[16:58:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-12, y=89, z=12}
+[16:58:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-12, y=89, z=11}
+[17:01:44] [Server thread/INFO]: Ping008 has made the advancement [Take Aim]
+[17:02:14] [Server thread/INFO]: [Not Secure] <sleepy> naga five more iron?
+[17:02:31] [Server thread/INFO]: Ping008 has made the advancement [Monster Hunter]
+[17:02:34] [Server thread/INFO]: TurtleNeckStew64 fell from a high place
+[17:03:41] [Server thread/INFO]: Ping008 has made the advancement [Sweet Dreams]
+[17:04:09] [Server thread/INFO]: [Not Secure] <sleepy> sleepy
+[17:04:10] [Server thread/INFO]: [Not Secure] <sleepy> sleep
+[17:04:12] [Server thread/INFO]: [Not Secure] <sleepy> sleep
+[17:04:13] [Server thread/INFO]: [Not Secure] <sleepy> sleep
+[17:04:21] [Server thread/INFO]: [Not Secure] <Ping008> kick turtleneckstew64
+[17:04:40] [Server thread/INFO]: [Not Secure] <Ping008> ./kick turtleneckstew64
+[17:08:43] [Server thread/INFO]: Ping008 has made the advancement [Voluntary Exile]
+[17:14:51] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[17:14:51] [Server thread/INFO]: Ping008 left the game
+[17:32:30] [Server thread/INFO]: NagaTheCutie has made the advancement [What a Deal!]
+[17:36:50] [Server thread/INFO]: [Not Secure] <sleepy> 660/60
+[17:38:18] [Server thread/INFO]: sleepy lost connection: Disconnected
+[17:38:18] [Server thread/INFO]: sleepy left the game
+[17:41:11] [Server thread/INFO]: TurtleNeckStew64 burned to death
+[17:47:21] [Server thread/INFO]: TurtleNeckStew64 was killed by [Intentional Game Design]
+[17:49:22] [Server thread/INFO]: TurtleNeckStew64 burned to death
+[17:56:02] [Server thread/INFO]: TurtleNeckStew64 tried to swim in lava
+[18:19:12] [Server thread/INFO]: NagaTheCutie has made the advancement [Enchanter]
+[18:22:26] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[18:22:26] [Server thread/INFO]: NagaTheCutie left the game
+[18:23:06] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[18:23:06] [Server thread/INFO]: TurtleNeckStew64 left the game
+[18:23:23] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:24542] logged in with entity id 39517 at (-119.2517176859632, 66.0, -17.65909115821281)
+[18:23:23] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[18:35:06] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1115] logged in with entity id 41353 at (-135.3772709603748, 63.0, -26.713637555389436)
+[18:35:06] [Server thread/INFO]: NagaTheCutie joined the game
+[18:44:31] [Server thread/INFO]: Villager class_1646['Villager'/39768, l='ServerLevel[world]', x=-113.78, y=63.00, z=-55.15] died, message: 'Villager suffocated in a wall'
+[18:46:15] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[18:46:15] [Server thread/INFO]: TurtleNeckStew64 left the game
+[18:49:50] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[18:49:50] [Server thread/INFO]: NagaTheCutie left the game
+[18:52:02] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1337] logged in with entity id 44096 at (-94.10604550976558, 61.0, -11.699999988079071)
+[18:52:02] [Server thread/INFO]: NagaTheCutie joined the game
+[18:54:20] [Server thread/INFO]: Villager class_1646['Villager'/40944, l='ServerLevel[world]', x=-114.14, y=63.05, z=-55.14] died, message: 'Villager suffocated in a wall'
+[18:57:09] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[18:57:09] [Server thread/INFO]: NagaTheCutie left the game
+[19:02:09] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1457] logged in with entity id 44884 at (-88.67509528058964, 62.0, -13.511538509109107)
+[19:02:09] [Server thread/INFO]: NagaTheCutie joined the game
+[19:09:10] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[19:09:10] [Server thread/INFO]: NagaTheCutie left the game
+[19:12:09] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:1238] logged in with entity id 46015 at (-135.17831073552367, 63.0, -26.238845879254523)
+[19:12:09] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[19:13:30] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1360] logged in with entity id 46287 at (-84.11815438651415, 62.0, -15.300000011920929)
+[19:13:30] [Server thread/INFO]: NagaTheCutie joined the game
+[19:13:48] [Server thread/INFO]: sleepy[/127.0.0.1:1367] logged in with entity id 46339 at (-138.4225343258884, 63.0, -25.129667624813845)
+[19:13:48] [Server thread/INFO]: sleepy joined the game
+[19:14:17] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.3229230490988897
+[19:14:18] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.405477976637286
+[19:14:18] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.6065526904014433
+[19:14:27] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.4247340042237795
+[19:14:27] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.6688647912132097
+[19:14:27] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.8932673489133123
+[19:14:55] [Server thread/INFO]: [Not Secure] <sleepy> yi
+[19:14:56] [Server thread/INFO]: [Not Secure] <sleepy> yo
+[19:15:02] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> theres an iron golem
+[19:15:08] [Server thread/INFO]: [Not Secure] <sleepy> try the two texture packs i sent you in discord
+[19:15:09] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> not in the thing tho
+[19:15:19] [Server thread/INFO]: [Not Secure] <sleepy> yea ik
+[19:15:22] [Server thread/INFO]: [Not Secure] <sleepy> he was there last night
+[19:15:31] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> nah that one died
+[19:15:37] [Server thread/INFO]: [Not Secure] <sleepy> you guys should try the texture packs i sent
+[19:15:53] [Server thread/INFO]: [Not Secure] <sleepy> one of them its clear gui one of them makes the defualt texture 3d and it looks really good
+[19:18:43] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[19:18:43] [Server thread/INFO]: NagaTheCutie left the game
+[19:20:11] [Server thread/INFO]: sleepy was slain by Zombie
+[19:20:20] [Server thread/INFO]: [Not Secure] <sleepy> fuj
+[19:20:22] [Server thread/INFO]: [Not Secure] <sleepy> fuk
+[19:20:27] [Server thread/INFO]: [Not Secure] <sleepy> the zombie died too
+[19:20:36] [Server thread/INFO]: [Not Secure] <sleepy> wait
+[19:20:38] [Server thread/INFO]: [Not Secure] <sleepy> nvm
+[19:20:51] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> iron golem is drowning
+[19:21:03] [Server thread/INFO]: sleepy lost connection: Disconnected
+[19:21:03] [Server thread/INFO]: sleepy left the game
+[19:21:12] [Server thread/INFO]: sleepy[/127.0.0.1:1205] logged in with entity id 47678 at (-94.48384283155626, 61.97485542047862, -141.36785686259108)
+[19:21:12] [Server thread/INFO]: sleepy joined the game
+[19:22:55] [Server thread/INFO]: TurtleNeckStew64 drowned
+[19:23:01] [Server thread/INFO]: [Not Secure] <sleepy> ??????????????????????????????????????????
+[19:23:13] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1264] logged in with entity id 48064 at (-111.98368622974886, 63.0, -53.73531597085086)
+[19:23:13] [Server thread/INFO]: NagaTheCutie joined the game
+[19:32:33] [Server thread/INFO]: [Not Secure] <sleepy> zach
+[19:32:38] [Server thread/INFO]: [Not Secure] <sleepy> you dropped your sword
+[19:32:44] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> oh
+[19:32:49] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> u found it
+[19:33:25] [Server thread/INFO]: TurtleNeckStew64 was slain by Zombie
+[19:33:33] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> gimme
+[19:33:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> where is it
+[19:33:36] [Server thread/INFO]: [Not Secure] <sleepy> i did
+[19:33:41] [Server thread/INFO]: [Not Secure] <sleepy> its in your inventory
+[19:33:44] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> nah
+[19:33:50] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ty
+[19:33:55] [Server thread/INFO]: [Not Secure] <sleepy> xD
+[19:40:38] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> gimme sugarcanew
+[19:40:43] [Server thread/INFO]: [Not Secure] <sleepy> yea ik
+[19:40:45] [Server thread/INFO]: [Not Secure] <sleepy> for paper
+[19:40:48] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> yuh
+[19:40:50] [Server thread/INFO]: [Not Secure] <sleepy> and trade
+[19:40:52] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> put it in the barrel
+[19:41:06] [Server thread/INFO]: [Not Secure] <sleepy> gotchu
+[19:41:42] [Server thread/INFO]: [Not Secure] <sleepy> nikkko
+[19:41:44] [Server thread/INFO]: [Not Secure] <sleepy> another baby
+[19:41:46] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ye
+[19:41:52] [Server thread/INFO]: [Not Secure] <NagaTheCutie> bet
+[19:41:56] [Server thread/INFO]: [Not Secure] <NagaTheCutie> 9 months?
+[19:42:00] [Server thread/INFO]: [Not Secure] <sleepy> shes already out
+[19:42:04] [Server thread/INFO]: [Not Secure] <NagaTheCutie> oh shit
+[19:42:09] [Server thread/INFO]: [Not Secure] <NagaTheCutie> mr fangf and MATT
+[19:42:17] [Server thread/INFO]: [Not Secure] <sleepy> naw
+[19:42:20] [Server thread/INFO]: [Not Secure] <sleepy> lmao
+[19:42:44] [Server thread/INFO]: [Not Secure] <sleepy> what are you guys doijng
+[19:42:46] [Server thread/INFO]: [Not Secure] <sleepy> *doing
+[19:42:51] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> excavating
+[19:42:56] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> for another strip mine
+[19:43:00] [Server thread/INFO]: [Not Secure] <sleepy> bet
+[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=70, z=-19} class_2338{x=-99, y=70, z=-21}
+[19:47:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=70, z=-19} class_2338{x=-99, y=70, z=-21}
+[19:49:50] [Server thread/INFO]: [Not Secure] <sleepy> im moving grindstone to camp
+[19:49:57] [Server thread/INFO]: [Not Secure] <sleepy> so one of them get another different job
+[19:49:58] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ok
+[20:05:43] [Server thread/WARN]: Boat (vehicle of sleepy) moved wrongly! 0.32080078125
+[20:14:30] [Server thread/INFO]: [Not Secure] <sleepy> yo
+[20:14:35] [Server thread/INFO]: [Not Secure] <sleepy> what is that on the tree top
+[20:14:46] [Server thread/INFO]: NagaTheCutie was slain by Spider
+[20:14:57] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> tree house
+[20:18:34] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> do u have the sugarcane
+[20:18:41] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[20:18:41] [Server thread/INFO]: NagaTheCutie left the game
+[20:25:12] [Server thread/INFO]: [Not Secure] <sleepy> ?
+[20:25:54] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> imma put this in the camp
+[20:26:00] [Server thread/INFO]: [Not Secure] <sleepy> sur
+[20:26:12] [Server thread/INFO]: [Not Secure] <sleepy> i just need three more refugee
+[20:31:44] [Server thread/INFO]: [Not Secure] <sleepy> SLEEEEEEEP
+[20:31:45] [Server thread/INFO]: [Not Secure] <sleepy> PLZ
+[20:31:49] [Server thread/INFO]: [Not Secure] <sleepy> IM BEING ATTACKED
+[20:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-253, y=-18, z=-21} class_2338{x=-252, y=-18, z=-19}
+[20:36:47] [Server thread/INFO]: [Not Secure] <sleepy> yo zack
+[20:36:52] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> what
+[20:36:57] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> its zach...
+[20:37:00] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> not zack
+[20:37:04] [Server thread/INFO]: [Not Secure] <sleepy> ok
+[20:37:18] [Server thread/INFO]: [Not Secure] <sleepy> just apologizing for spitting on you eariler today
+[20:37:23] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> oh
+[20:37:25] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> its fine
+[20:37:38] [Server thread/INFO]: [Not Secure] <sleepy> mmm
+[20:37:46] [Server thread/INFO]: [Not Secure] <sleepy> what is that on the tree top
+[20:37:53] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> come
+[20:37:55] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ill show u
+[20:38:01] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> up here
+[20:38:15] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> tree house
+[20:38:17] [Server thread/INFO]: [Not Secure] <sleepy> new base?
+[20:38:20] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> nah
+[20:38:23] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> just something cool
+[20:38:26] [Server thread/INFO]: [Not Secure] <sleepy> nice
+[20:38:32] [Server thread/INFO]: [Not Secure] <sleepy> you might need a lot of glasses
+[20:38:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> yea
+[20:38:41] [Server thread/INFO]: [Not Secure] <sleepy> try dye the glasses
+[20:38:55] [Server thread/INFO]: [Not Secure] <sleepy> that be sick
+[20:44:59] [Server thread/INFO]: [Not Secure] <sleepy> the weapon smith has a knockback sword for 18 bucks
+[20:45:07] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> scam
+[20:48:46] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[20:48:46] [Server thread/INFO]: TurtleNeckStew64 left the game
+[20:50:14] [Server thread/INFO]: sleepy lost connection: Disconnected
+[20:50:14] [Server thread/INFO]: sleepy left the game
+[21:19:37] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:19952] logged in with entity id 67801 at (-85.52985025479556, 61.0, -13.699999988079071)
+[21:19:37] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[21:37:35] [Server thread/INFO]: TurtleNeckStew64 fell from a high place
+[21:40:00] [Server thread/INFO]: You whisper to TurtleNeckStew64: check discord
+[21:50:26] [Server thread/INFO]: You whisper to TurtleNeckStew64: is that your mom or your sister?
+[21:57:06] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [Take Aim]
+[21:58:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-104, y=48, z=-48} class_2338{x=-104, y=47, z=-48}
+[22:01:52] [Server thread/INFO]: sleepy[/127.0.0.1:1074] logged in with entity id 75521 at (-143.5, 62.5625, -26.5)
+[22:01:52] [Server thread/INFO]: sleepy joined the game
+[22:02:13] [Server thread/INFO]: [Not Secure] <sleepy> HOLA
+[22:02:17] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> hola
+[22:02:42] [Server thread/INFO]: [Not Secure] <sleepy> i need bread
+[22:02:45] [Server thread/INFO]: [Not Secure] <sleepy> im hungry
+[22:02:53] [Server thread/INFO]: [Not Secure] <sleepy> bet
+[22:04:01] [Server thread/INFO]: [Not Secure] <sleepy> yo come shower
+[22:06:37] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[22:06:37] [Server thread/INFO]: TurtleNeckStew64 left the game
+[22:11:07] [Server thread/INFO]: sleepy lost connection: Disconnected
+[22:11:07] [Server thread/INFO]: sleepy left the game
+[22:14:58] [Server thread/INFO]: sleepy[/127.0.0.1:1873] logged in with entity id 76932 at (-103.58104533216684, 85.0, -136.54540590937907)
+[22:14:58] [Server thread/INFO]: sleepy joined the game
+[22:15:05] [Server thread/INFO]: sleepy fell from a high place
+[22:25:07] [Server thread/INFO]: sleepy lost connection: Disconnected
+[22:25:07] [Server thread/INFO]: sleepy left the game
+[22:25:27] [Server thread/INFO]: sleepy[/127.0.0.1:2058] logged in with entity id 79318 at (-122.38354809923118, 62.9375, -36.61107051137599)
+[22:25:27] [Server thread/INFO]: sleepy joined the game
+[22:25:42] [Server thread/INFO]: sleepy lost connection: Disconnected
+[22:25:42] [Server thread/INFO]: sleepy left the game
+[22:25:51] [Server thread/INFO]: sleepy[/127.0.0.1:2067] logged in with entity id 79460 at (-125.29482818739362, 62.9375, -34.84943544095709)
+[22:25:51] [Server thread/INFO]: sleepy joined the game
+[22:31:50] [Server thread/INFO]: sleepy lost connection: Disconnected
+[22:31:50] [Server thread/INFO]: sleepy left the game
+[22:31:52] [Server thread/INFO]: sleepy[/127.0.0.1:1082] logged in with entity id 80675 at (-105.0358022281098, 63.0, -129.397697518434)
+[22:31:52] [Server thread/INFO]: sleepy joined the game
+[22:41:20] [Server thread/INFO]: [Not Secure] <sleepy> wtf
+[23:00:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:00:52] [Server thread/INFO]: STOP<--[HERE]
+[23:01:52] [Server thread/INFO]: sleepy lost connection: Disconnected
+[23:01:52] [Server thread/INFO]: sleepy left the game
+[23:05:41] [Server thread/INFO]: Stopping the server
+[23:05:41] [Server thread/INFO]: Stopping server
+[23:05:41] [Server thread/INFO]: Saving players
+[23:05:41] [Server thread/INFO]: Saving worlds
+[23:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
