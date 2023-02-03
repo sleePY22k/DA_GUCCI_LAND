@@ -4,5 +4,11 @@
     "name": "sleepy",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b3fd9760-6d7b-3650-81bf-8dfa01c2ee13",
+    "name": "turtleneckstew",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

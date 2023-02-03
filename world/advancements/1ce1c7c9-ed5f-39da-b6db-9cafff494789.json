@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-02-02 20:20:28 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2023-01-31 16:40:24 -0800"
@@ -152,6 +158,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2023-01-29 21:28:02 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2023-02-02 21:55:33 -0800"
     },
     "done": true
   },
@@ -578,6 +590,12 @@
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2023-01-29 21:46:33 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-02-02 20:20:28 -0800"
     },
     "done": true
   },
@@ -1641,6 +1659,7 @@
       "tropical_fish": "2023-01-29 20:30:48 -0800",
       "apple": "2023-01-29 20:54:44 -0800",
       "cooked_cod": "2023-01-30 16:27:25 -0800",
+      "pumpkin_pie": "2023-02-02 19:08:04 -0800",
       "mutton": "2023-01-29 20:43:54 -0800",
       "bread": "2023-01-30 23:32:56 -0800",
       "glow_berries": "2023-01-29 20:30:40 -0800",
@@ -2158,6 +2177,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-02-02 19:20:37 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2023-01-29 20:35:17 -0800"
@@ -2317,6 +2342,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2023-01-30 16:56:59 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2023-02-02 22:18:18 -0800"
     },
     "done": true
   },
@@ -2533,6 +2564,12 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2023-01-29 20:35:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-02-02 19:20:37 -0800"
     },
     "done": true
   },

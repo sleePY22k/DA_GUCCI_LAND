@@ -1,68 +1,81 @@
-[15:39:35] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:3701] logged in with entity id 216 at (-106.6765435336036, 63.1212968405392, -112.02280042795797)
-[15:39:35] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[15:50:46] [Server thread/INFO]: You whisper to TurtleNeckStew64: vc
-[15:51:25] [Server thread/INFO]: sleepy[/127.0.0.1:30500] logged in with entity id 2158 at (-105.7086443187951, 82.0, -138.50615706715277)
-[15:51:25] [Server thread/INFO]: sleepy joined the game
-[15:58:56] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1136] logged in with entity id 3787 at (-120.16167307648227, 62.0, -40.219578209355824)
-[15:58:56] [Server thread/INFO]: NagaTheCutie joined the game
-[16:06:06] [Server thread/WARN]: NagaTheCutie moved wrongly!
-[16:15:56] [Server thread/INFO]: [Not Secure] <sleepy> NAWWWAR
-[16:22:45] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [Hot Stuff]
-[16:24:01] [Server thread/INFO]: TurtleNeckStew64 tried to swim in lava
-[16:24:42] [Server thread/INFO]: TurtleNeckStew64 tried to swim in lava
-[16:25:19] [Server thread/INFO]: TurtleNeckStew64 burned to death
-[16:32:49] [Server thread/INFO]: TurtleNeckStew64 was slain by Zombie
-[16:36:56] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> lap churn
-[16:37:04] [Server thread/INFO]: [Not Secure] <sleepy> lap journ
-[16:44:31] [Server thread/INFO]: sleepy fell from a high place
-[16:55:29] [Server thread/INFO]: sleepy lost connection: Disconnected
-[16:55:29] [Server thread/INFO]: sleepy left the game
-[17:02:38] [Server thread/INFO]: NagaTheCutie has made the advancement [A Seedy Place]
-[17:26:40] [Server thread/INFO]: TurtleNeckStew64 fell from a high place
-[17:36:21] [Server thread/INFO]: TurtleNeckStew64 was blown up by Creeper
-[18:08:18] [Server thread/INFO]: sleepy[/127.0.0.1:19643] logged in with entity id 37730 at (-109.69999998807907, 67.0, -128.84009699099184)
-[18:08:18] [Server thread/INFO]: sleepy joined the game
-[18:08:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
-[18:14:41] [Server thread/INFO]: sleepy lost connection: Disconnected
-[18:14:41] [Server thread/INFO]: sleepy left the game
-[18:15:50] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
-[18:15:50] [Server thread/INFO]: NagaTheCutie left the game
-[18:19:50] [Server thread/INFO]: sleepy[/127.0.0.1:19927] logged in with entity id 40334 at (-106.5, 62.7125, -118.48000001907349)
-[18:19:50] [Server thread/INFO]: sleepy joined the game
-[18:19:52] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
-[18:19:52] [Server thread/INFO]: TurtleNeckStew64 left the game
-[18:23:52] [Server thread/INFO]: sleepy lost connection: Disconnected
-[18:23:52] [Server thread/INFO]: sleepy left the game
-[18:32:15] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:20207] logged in with entity id 41221 at (-89.4196676517709, 61.0, -13.699999988079071)
-[18:32:15] [Server thread/INFO]: NagaTheCutie joined the game
-[18:37:32] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:20323] logged in with entity id 42410 at (-86.52572320060104, 64.0, -25.4453650284036)
-[18:37:32] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[18:47:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=30, y=15, z=-58} class_2338{x=30, y=14, z=-59}
-[18:50:47] [Server thread/INFO]: NagaTheCutie burned to death
-[18:51:33] [Server thread/INFO]: You whisper to TurtleNeckStew64: i need to restart the server real quick
-[18:51:33] [Server thread/INFO]: You whisper to NagaTheCutie: i need to restart the server real quick
-[18:51:34] [Server thread/INFO]: TurtleNeckStew64 burned to death
-[18:51:42] [Server thread/INFO]: [Not Secure] <NagaTheCutie> NOO
-[18:55:02] [Server thread/INFO]: NagaTheCutie burned to death
-[18:57:28] [Server thread/INFO]: NagaTheCutie burned to death
-[18:58:27] [Server thread/INFO]: sleepy[/127.0.0.1:1058] logged in with entity id 46122 at (-110.07499998807907, 64.0625, -57.21526666181783)
-[18:58:28] [Server thread/INFO]: sleepy joined the game
-[18:58:34] [Server thread/INFO]: sleepy lost connection: Disconnected
-[18:58:34] [Server thread/INFO]: sleepy left the game
-[18:58:42] [Server thread/INFO]: Kicked TurtleNeckStew64: Kicked by an operator
-[18:58:42] [Server thread/INFO]: Kicked NagaTheCutie: Kicked by an operator
-[18:58:43] [Server thread/INFO]: NagaTheCutie lost connection: Kicked by an operator
-[18:58:43] [Server thread/INFO]: NagaTheCutie left the game
-[18:58:43] [Server thread/INFO]: TurtleNeckStew64 lost connection: Kicked by an operator
-[18:58:43] [Server thread/INFO]: TurtleNeckStew64 left the game
-[18:58:44] [Server thread/INFO]: Stopping the server
-[18:58:44] [Server thread/INFO]: Stopping server
-[18:58:44] [Server thread/INFO]: Saving players
-[18:58:44] [Server thread/INFO]: Saving worlds
-[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:58:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:58:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:59:11] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
+[18:59:11] [main/INFO]: Loading 3 mods:
+	- fabricloader 0.14.13
+	- java 19
+	- minecraft 1.19.3
+[18:59:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/mcserver/DA_UCCI_LAND/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[18:59:15] [main/INFO]: Building unoptimized datafixer
+[18:59:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:59:17] [main/INFO]: Loaded 7 recipes
+[18:59:18] [main/INFO]: Loaded 1179 advancements
+[18:59:18] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:59:18] [Server thread/INFO]: Loading properties
+[18:59:18] [Server thread/INFO]: Default game type: SURVIVAL
+[18:59:18] [Server thread/INFO]: Generating keypair
+[18:59:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:59:18] [Server thread/INFO]: Using default channel type
+[18:59:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:59:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:59:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:59:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:59:19] [Server thread/INFO]: Preparing level "world"
+[18:59:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:59:23] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:59:23] [Worker-Main-13/INFO]: Preparing spawn area: 10%
+[18:59:24] [Server thread/INFO]: Time elapsed: 4008 ms
+[18:59:24] [Server thread/INFO]: Done (5.207s)! For help, type "help"
+[18:59:51] [Server thread/INFO]: sleepy[/127.0.0.1:1107] logged in with entity id 234 at (-110.46172205308186, 63.5625, -61.664829758607496)
+[18:59:51] [Server thread/INFO]: sleepy joined the game
+[18:59:53] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1110] logged in with entity id 323 at (-98.41869525349892, 65.0, -26.296832601818654)
+[18:59:53] [Server thread/INFO]: NagaTheCutie joined the game
+[19:00:10] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:1129] logged in with entity id 355 at (10.37932048401439, 43.7531999805212, -8.954591269741025)
+[19:00:10] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[19:04:59] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[19:04:59] [Server thread/INFO]: NagaTheCutie left the game
+[19:05:11] [Server thread/INFO]: NagaTheCutie[/[0:0:0:0:0:0:0:1]:1272] logged in with entity id 1290 at (-89.52142869698281, 81.0, -12.135626384372038)
+[19:05:11] [Server thread/INFO]: NagaTheCutie joined the game
+[19:16:11] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[19:16:11] [Server thread/INFO]: TurtleNeckStew64 left the game
+[19:17:20] [Server thread/INFO]: TurtleNeckStew64[/[0:0:0:0:0:0:0:1]:1680] logged in with entity id 4008 at (-75.08844822686179, 63.0, -38.91773885292449)
+[19:17:20] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[19:38:24] [Server thread/INFO]: sleepy lost connection: Disconnected
+[19:38:24] [Server thread/INFO]: sleepy left the game
+[19:38:55] [Server thread/INFO]: sleepy[/127.0.0.1:33399] logged in with entity id 7947 at (-8.70598205763726, 27.313164156008774, 5.152738341579132)
+[19:38:55] [Server thread/INFO]: sleepy joined the game
+[19:39:01] [Server thread/INFO]: sleepy tried to swim in lava
+[19:48:25] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[19:48:25] [Server thread/INFO]: NagaTheCutie left the game
+[20:23:53] [Server thread/INFO]: sleepy lost connection: Disconnected
+[20:23:53] [Server thread/INFO]: sleepy left the game
+[20:23:55] [Server thread/INFO]: sleepy[/127.0.0.1:2521] logged in with entity id 17395 at (-135.48741627660144, 69.0, -27.698390504264303)
+[20:23:55] [Server thread/INFO]: sleepy joined the game
+[20:27:08] [Server thread/INFO]: sleepy lost connection: Disconnected
+[20:27:08] [Server thread/INFO]: sleepy left the game
+[20:27:09] [Server thread/INFO]: sleepy[/127.0.0.1:1249] logged in with entity id 18344 at (-109.85031710395984, 67.0, -124.78642763304295)
+[20:27:09] [Server thread/INFO]: sleepy joined the game
+[21:07:01] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [Cover Me with Diamonds]
+[21:16:41] [Server thread/INFO]: sleepy lost connection: Disconnected
+[21:16:41] [Server thread/INFO]: sleepy left the game
+[21:16:47] [Server thread/INFO]: sleepy[/127.0.0.1:1148] logged in with entity id 27786 at (-111.92348823717208, 63.5625, -63.420086297090876)
+[21:16:47] [Server thread/INFO]: sleepy joined the game
+[21:55:33] [Server thread/INFO]: sleepy has made the advancement [Cover Me with Diamonds]
+[21:57:27] [Server thread/INFO]: Made turtleneckstew a server operator
+[22:37:07] [Server thread/INFO]: sleepy lost connection: Disconnected
+[22:37:07] [Server thread/INFO]: sleepy left the game
+[22:37:32] [Server thread/INFO]: Stopping the server
+[22:37:32] [Server thread/INFO]: Stopping server
+[22:37:32] [Server thread/INFO]: Saving players
+[22:37:32] [Server thread/INFO]: Saving worlds
+[22:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:37:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:37:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
