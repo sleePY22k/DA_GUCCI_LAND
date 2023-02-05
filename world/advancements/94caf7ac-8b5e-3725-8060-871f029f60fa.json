@@ -317,6 +317,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2023-02-04 22:40:45 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2023-01-29 20:32:21 -0800"
@@ -506,6 +512,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-01-29 20:32:20 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2023-02-04 22:40:45 -0800"
     },
     "done": true
   },
@@ -1421,6 +1433,12 @@
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2023-01-31 17:19:49 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2023-02-04 22:40:45 -0800"
     },
     "done": true
   },
