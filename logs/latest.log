@@ -1,15 +1,559 @@
-[07:39:50] [Server thread/INFO]: sleepy[/127.0.0.1:8640] logged in with entity id 89142 at (-106.84383237682859, 63.0, -123.86339991354492)
-[07:39:51] [Server thread/INFO]: sleepy joined the game
-[09:21:26] [Server thread/INFO]: sleepy lost connection: Disconnected
-[09:21:26] [Server thread/INFO]: sleepy left the game
-[09:21:34] [Server thread/INFO]: Stopping the server
-[09:21:34] [Server thread/INFO]: Stopping server
-[09:21:34] [Server thread/INFO]: Saving players
-[09:21:34] [Server thread/INFO]: Saving worlds
-[09:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:21:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:21:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:21:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:21:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:23:04] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
+[09:23:04] [main/INFO]: Loading 41 mods:
+	- fabric-api 0.73.2+1.19.3
+	- fabric-api-base 0.4.21+70be179c85 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.20+49abcf7e85 via fabric-api
+	- fabric-biome-api-v1 12.1.1+b5d379b085 via fabric-api
+	- fabric-block-api-v1 1.0.5+e022e5d185 via fabric-api
+	- fabric-command-api-v1 1.2.22+f71b366f85 via fabric-api
+	- fabric-command-api-v2 2.2.1+3fc4752e85 via fabric-api
+	- fabric-commands-v0 0.2.39+df3654b385 via fabric-api
+	- fabric-containers-v0 0.1.47+df3654b385 via fabric-api
+	- fabric-content-registries-v0 3.5.1+1d37d50285 via fabric-api
+	- fabric-convention-tags-v1 1.2.2+8e4e694f85 via fabric-api
+	- fabric-crash-report-info-v1 0.2.14+aeb40ebe85 via fabric-api
+	- fabric-data-generation-api-v1 11.2.1+06937c4b85 via fabric-api
+	- fabric-dimensions-v1 2.1.41+48349a3f85 via fabric-api
+	- fabric-entity-events-v1 1.5.7+b83334a085 via fabric-api
+	- fabric-events-interaction-v0 0.4.40+3baeb27a85 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.44+df3654b385 via fabric-api
+	- fabric-game-rule-api-v1 1.0.30+99f9db8085 via fabric-api
+	- fabric-item-api-v1 2.1.10+312c329485 via fabric-api
+	- fabric-item-group-api-v1 2.1.12+1134c5b885 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.10+23a79c8a85 via fabric-api
+	- fabric-loot-api-v2 1.1.20+75e9821185 via fabric-api
+	- fabric-loot-tables-v1 1.1.24+9e7660c685 via fabric-api
+	- fabric-message-api-v1 5.0.14+6ede1da985 via fabric-api
+	- fabric-mining-level-api-v1 2.1.31+49abcf7e85 via fabric-api
+	- fabric-networking-api-v1 1.2.17+4017a8cb85 via fabric-api
+	- fabric-networking-v0 0.3.34+df3654b385 via fabric-api
+	- fabric-object-builder-api-v1 5.4.1+eb2a3ba985 via fabric-api
+	- fabric-particles-v1 1.0.20+f1e4495b85 via fabric-api
+	- fabric-recipe-api-v1 1.0.1+5176f73d85 via fabric-api
+	- fabric-registry-sync-v0 2.0.5+1134c5b885 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.25+afca2f3e85 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.18+f1e4495b85 via fabric-api
+	- fabric-resource-conditions-api-v1 2.2.3+1134c5b885 via fabric-api
+	- fabric-resource-loader-v0 0.10.5+a91e48b785 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.13+99f9db8085 via fabric-api
+	- fabric-transfer-api-v1 2.1.15+ccd377ba85 via fabric-api
+	- fabric-transitive-access-wideners-v1 2.3.1+5b9a588b85 via fabric-api
+	- fabricloader 0.14.13
+	- java 19
+	- minecraft 1.19.3
+[09:23:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/mcserver/DA_UCCI_LAND/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[09:23:05] [main/INFO]: Compatibility level set to JAVA_16
+[09:23:05] [main/INFO]: Compatibility level set to JAVA_17
+[09:23:09] [main/INFO]: Building unoptimized datafixer
+[09:23:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:23:11] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[09:23:12] [main/INFO]: Loaded 7 recipes
+[09:23:12] [main/INFO]: Loaded 1179 advancements
+[09:23:12] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 1.458 ms
+[09:23:13] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[09:23:13] [Server thread/INFO]: Loading properties
+[09:23:13] [Server thread/INFO]: Default game type: SURVIVAL
+[09:23:13] [Server thread/INFO]: Generating keypair
+[09:23:13] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[09:23:13] [Server thread/INFO]: Using default channel type
+[09:23:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:23:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:23:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:23:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:23:13] [Server thread/INFO]: Preparing level "world"
+[09:23:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:23:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[09:23:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[09:23:18] [Worker-Main-4/INFO]: Preparing spawn area: 55%
+[09:23:18] [Server thread/INFO]: Time elapsed: 3775 ms
+[09:23:18] [Server thread/INFO]: Done (4.877s)! For help, type "help"
+[09:23:19] [Server thread/INFO]: sleepy[/127.0.0.1:10897] logged in with entity id 207 at (-104.30000001192093, 63.0, -129.48750001192093)
+[09:23:19] [Server thread/INFO]: sleepy joined the game
+[12:04:00] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:27101] logged in with entity id 20624 at (-137.64733682136625, 63.0, -25.375489058783657)
+[12:04:00] [Server thread/INFO]: NagaTheCutie joined the game
+[12:04:06] [Server thread/INFO]: [Not Secure] <sleepy> vc
+[12:29:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=40, y=15, z=-33} class_2338{x=41, y=14, z=-33}
+[12:29:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=40, y=15, z=-33} class_2338{x=41, y=14, z=-33}
+[12:32:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=38, y=15, z=13} class_2338{x=39, y=14, z=12}
+[12:32:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=38, y=15, z=13} class_2338{x=39, y=14, z=12}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=48, y=15, z=3} class_2338{x=53, y=16, z=-23}
+[12:35:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=46, y=17, z=-17} class_2338{x=46, y=17, z=-18}
+[12:40:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=17, z=21} class_2338{x=56, y=16, z=21}
+[12:40:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=17, z=21} class_2338{x=56, y=16, z=21}
+[12:40:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=17, z=21} class_2338{x=56, y=16, z=21}
+[12:40:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=17, z=21} class_2338{x=56, y=16, z=21}
+[12:40:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=17, z=21} class_2338{x=56, y=16, z=21}
+[12:42:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=18, z=-2} class_2338{x=20, y=17, z=-2}
+[12:42:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=18, z=-2} class_2338{x=20, y=17, z=-2}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=18, z=0} class_2338{x=0, y=18, z=-1}
+[12:42:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2, y=15, z=5} class_2338{x=2, y=15, z=4}
+[12:42:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2, y=15, z=5} class_2338{x=2, y=15, z=4}
+[12:42:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2, y=15, z=5} class_2338{x=2, y=15, z=4}
+[12:44:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=44, y=18, z=-40} class_2338{x=44, y=17, z=-41}
+[12:45:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=19, z=-36} class_2338{x=45, y=18, z=-36}
+[12:45:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=19, z=-36} class_2338{x=45, y=18, z=-36}
+[12:45:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=19, z=-36} class_2338{x=45, y=18, z=-36}
+[12:45:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=19, z=-36} class_2338{x=45, y=18, z=-36}
+[12:45:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=19, z=-36} class_2338{x=45, y=18, z=-36}
+[13:37:02] [Server thread/INFO]: sleepy lost connection: Disconnected
+[13:37:02] [Server thread/INFO]: sleepy left the game
+[13:44:12] [Server thread/INFO]: sleepy[/127.0.0.1:2029] logged in with entity id 47520 at (-157.58859926091216, 63.5, -68.94401715362146)
+[13:44:12] [Server thread/INFO]: sleepy joined the game
+[13:57:34] [Server thread/INFO]: [Not Secure] <sleepy> -130 -30
+[14:00:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-173, y=66, z=-28} class_2338{x=-173, y=65, z=-28}
+[14:00:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-173, y=66, z=-28} class_2338{x=-173, y=65, z=-28}
+[14:00:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-173, y=66, z=-28} class_2338{x=-173, y=65, z=-28}
+[14:09:32] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:8179] logged in with entity id 59235 at (-128.1729143422638, 64.24918707874468, -47.15191861498782)
+[14:09:32] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[14:22:00] [Server thread/INFO]: [sleepy: Kicked TurtleNeckStew64: Kicked by an operator]
+[14:22:00] [Server thread/INFO]: TurtleNeckStew64 lost connection: Kicked by an operator
+[14:22:00] [Server thread/INFO]: TurtleNeckStew64 left the game
+[14:22:25] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[14:22:25] [Server thread/INFO]: NagaTheCutie left the game
+[14:22:53] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:8362] logged in with entity id 63186 at (74.40419855331601, 69.0, 314.4810296792153)
+[14:22:53] [Server thread/INFO]: NagaTheCutie joined the game
+[14:26:52] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:8424] logged in with entity id 65134 at (-129.7537804199528, 60.0, -50.77302516164836)
+[14:26:52] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[14:32:14] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[14:32:14] [Server thread/INFO]: TurtleNeckStew64 left the game
+[14:32:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-46, y=71, z=-18} class_2338{x=-45, y=71, z=-19}
+[14:33:39] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1053] logged in with entity id 67052 at (-114.65701603116388, 63.0, -123.596061262369)
+[14:33:39] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[14:34:37] [Server thread/WARN]: Boat (vehicle of NagaTheCutie) moved wrongly! 0.3118007454255576
+[14:34:38] [Server thread/WARN]: Boat (vehicle of NagaTheCutie) moved wrongly! 0.5588110681142311
+[14:34:38] [Server thread/WARN]: Boat (vehicle of NagaTheCutie) moved wrongly! 0.8208685333024732
+[15:05:14] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> our reyna is dog shit
+[15:05:20] [Server thread/INFO]: [Not Secure] <NagaTheCutie> damn
+[15:15:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-84, y=64, z=-22} class_2338{x=-84, y=64, z=-18}
+[15:15:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-84, y=64, z=-22} class_2338{x=-84, y=64, z=-18}
+[15:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-84, y=64, z=-18} class_2338{x=-82, y=66, z=-19}
+[15:15:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=66, z=-19} class_2338{x=-76, y=66, z=-19}
+[15:15:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-75, y=64, z=-21} class_2338{x=-73, y=62, z=-21}
+[15:16:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-75, y=64, z=-20} class_2338{x=-74, y=63, z=-19}
+[15:16:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-75, y=66, z=-23} class_2338{x=-73, y=67, z=-22}
+[15:16:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-75, y=66, z=-23} class_2338{x=-73, y=67, z=-22}
+[15:16:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=66, z=-24} class_2338{x=-76, y=67, z=-25}
+[15:16:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=67, z=-25} class_2338{x=-76, y=67, z=-25}
+[15:16:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=67, z=-25} class_2338{x=-76, y=67, z=-25}
+[15:16:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-85, y=67, z=-22} class_2338{x=-86, y=67, z=-21}
+[15:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=68, z=-21} class_2338{x=-86, y=67, z=-21}
+[15:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=69, z=-19} class_2338{x=-86, y=67, z=-21}
+[15:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=69, z=-19} class_2338{x=-86, y=67, z=-21}
+[15:16:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=69, z=-19} class_2338{x=-86, y=67, z=-21}
+[15:16:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-86, y=68, z=-20} class_2338{x=-86, y=68, z=-21}
+[15:16:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-85, y=69, z=-19} class_2338{x=-84, y=68, z=-19}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-86, y=69, z=-17} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-86, y=69, z=-17} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-86, y=69, z=-17} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-86, y=69, z=-17} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=71, z=-17} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=70, z=-18} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=70, z=-18} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=71, z=-18} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=70, z=-19} class_2338{x=-85, y=69, z=-17}
+[15:16:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=70, z=-19} class_2338{x=-85, y=69, z=-17}
+[15:16:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-85, y=69, z=-21} class_2338{x=-86, y=69, z=-21}
+[15:16:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=70, z=-20} class_2338{x=-90, y=70, z=-20}
+[15:16:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-91, y=70, z=-19} class_2338{x=-92, y=69, z=-20}
+[15:17:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-92, y=73, z=-20} class_2338{x=-92, y=72, z=-21}
+[15:18:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=66, z=-23} class_2338{x=-97, y=65, z=-22}
+[15:18:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=66, z=-23} class_2338{x=-98, y=66, z=-23}
+[15:18:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-97, y=65, z=-23} class_2338{x=-98, y=66, z=-23}
+[15:18:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-98, y=65, z=-23} class_2338{x=-98, y=66, z=-24}
+[15:18:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-97, y=65, z=-24} class_2338{x=-98, y=64, z=-23}
+[15:18:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=66, z=-24} class_2338{x=-98, y=64, z=-23}
+[15:18:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=64, z=-23} class_2338{x=-96, y=63, z=-24}
+[15:18:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=64, z=-24} class_2338{x=-98, y=65, z=-24}
+[15:18:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-97, y=65, z=-25} class_2338{x=-98, y=64, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=69, z=-24} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=69, z=-24} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=69, z=-25} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=70, z=-25} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-96, y=69, z=-24} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=69, z=-24} class_2338{x=-97, y=69, z=-25}
+[15:19:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=69, z=-24} class_2338{x=-97, y=69, z=-25}
+[15:20:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-91, y=74, z=-12} class_2338{x=-92, y=75, z=-13}
+[15:20:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-91, y=75, z=-13} class_2338{x=-92, y=75, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-89, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=75, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=75, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-87, y=75, z=-13} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:20:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=74, z=-12} class_2338{x=-89, y=73, z=-13}
+[15:25:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-100, y=69, z=-27} class_2338{x=-101, y=69, z=-28}
+[15:25:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-100, y=70, z=-27} class_2338{x=-101, y=69, z=-28}
+[15:34:04] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> bro?
+[15:34:09] [Server thread/INFO]: [Not Secure] <NagaTheCutie> wat
+[15:34:15] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> thought this was secret
+[15:34:26] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ill show u later
+[15:34:28] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> k
+[15:34:34] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> better hurry 0_0
+[15:34:57] [Server thread/INFO]: [Not Secure] <NagaTheCutie> brb
+[15:34:59] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[15:34:59] [Server thread/INFO]: NagaTheCutie left the game
+[15:36:07] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1512] logged in with entity id 82546 at (-91.13601657405273, 61.0, -12.707551839190726)
+[15:36:07] [Server thread/INFO]: NagaTheCutie joined the game
+[15:40:28] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> broooo
+[15:40:38] [Server thread/INFO]: [Not Secure] <NagaTheCutie> wat
+[15:43:00] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> brb
+[15:43:01] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[15:43:01] [Server thread/INFO]: TurtleNeckStew64 left the game
+[15:59:33] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:7311] logged in with entity id 86257 at (-93.10532486246309, 63.0, -24.23380022190528)
+[15:59:33] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[15:59:42] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> what is this
+[15:59:57] [Server thread/INFO]: [Not Secure] <NagaTheCutie> DESIGN
+[16:04:04] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> what happened to secret tho
+[16:04:16] [Server thread/INFO]: [Not Secure] <NagaTheCutie> JOIN CALL
+[16:04:25] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> k
+[16:08:10] [Server thread/INFO]: [Not Secure] <NagaTheCutie> zach move
+[16:12:43] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> 2.0 kd rn
+[16:12:45] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> im crazy
+[16:12:53] [Server thread/INFO]: [Not Secure] <NagaTheCutie> noice
+[16:12:59] [Server thread/INFO]: [Not Secure] <NagaTheCutie> kd?
+[16:14:33] [Server thread/INFO]: [Not Secure] <sleepy> YOOOOOOOOOOOO
+[16:14:49] [Server thread/INFO]: [Not Secure] <sleepy> ??????????????????????
+[16:14:49] [Server thread/INFO]: [Not Secure] <NagaTheCutie> hi
+[16:14:56] [Server thread/INFO]: [Not Secure] <sleepy> what is this bru
+[16:15:04] [Server thread/INFO]: [Not Secure] <sleepy> who built this
+[16:15:05] [Server thread/INFO]: [Not Secure] <NagaTheCutie> epicness
+[16:15:10] [Server thread/INFO]: [Not Secure] <NagaTheCutie> i build rn
+[16:15:29] [Server thread/INFO]: [Not Secure] <NagaTheCutie> zachs playing val
+[16:15:55] [Server thread/INFO]: [Not Secure] <sleepy> god damn
+[16:16:04] [Server thread/INFO]: [Not Secure] <sleepy> what is this house for?
+[16:16:12] [Server thread/INFO]: [Not Secure] <NagaTheCutie> sleeping
+[16:16:15] [Server thread/INFO]: [Not Secure] <NagaTheCutie> and design
+[16:16:16] [Server thread/INFO]: [Not Secure] <sleepy> bet
+[16:16:39] [Server thread/INFO]: [Not Secure] <sleepy> crazy
+[16:19:58] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> IM 20 AND 10
+[16:20:03] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> and we're losing
+[16:20:04] [Server thread/INFO]: [Not Secure] <NagaTheCutie> nice
+[16:20:19] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> L teamates
+[16:21:26] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> we winning now :D
+[16:24:07] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> need me to move
+[16:24:11] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ?
+[16:24:11] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ye
+[16:36:49] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[16:36:49] [Server thread/INFO]: TurtleNeckStew64 left the game
+[16:39:20] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1629] logged in with entity id 93947 at (-88.54745507993375, 63.0, -22.30000001192093)
+[16:39:20] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[16:39:56] [Server thread/INFO]: sleepy was slain by TurtleNeckStew64
+[16:42:05] [Server thread/INFO]: [Not Secure] <sleepy> ?
+[16:42:16] [Server thread/INFO]: [Not Secure] <NagaTheCutie> the vultures killed u
+[16:42:53] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ur stuff is up stairs
+[16:42:56] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> in the house
+[16:42:56] [Server thread/INFO]: [Not Secure] <sleepy> wheres my stuff
+[16:43:01] [Server thread/INFO]: [Not Secure] <sleepy> bru why you kill me
+[16:43:06] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> u were 1 hp
+[16:43:11] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i hit u with a hoe
+[16:43:13] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> and u died
+[16:43:19] [Server thread/INFO]: [Not Secure] <sleepy> ????????????????
+[16:43:26] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> the phantoms attacked u
+[16:43:33] [Server thread/INFO]: [Not Secure] <NagaTheCutie> vultures*
+[16:43:37] [Server thread/INFO]: [Not Secure] <sleepy> you have op so just kick me out next time like i did to you
+[16:43:38] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> yea
+[16:43:44] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> oh
+[16:43:50] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> didnt know that
+[16:43:53] [Server thread/INFO]: [Not Secure] <sleepy> yea
+[16:43:57] [Server thread/INFO]: [Not Secure] <sleepy> thx tho?
+[16:44:04] [Server thread/INFO]: [Not Secure] <NagaTheCutie> all me
+[16:44:08] [Server thread/INFO]: [Not Secure] <NagaTheCutie> I defended u
+[16:44:12] [Server thread/INFO]: [Not Secure] <sleepy> allllll my xp tho
+[16:44:17] [Server thread/INFO]: [Not Secure] <sleepy> i had like 27 levels
+[16:59:42] [Server thread/INFO]: TurtleNeckStew64 drowned
+[17:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-54, y=15, z=-84} class_2338{x=-53, y=14, z=-84}
+[17:12:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-47, y=15, z=-127} class_2338{x=-47, y=14, z=-126}
+[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-55, y=17, z=-278} class_2338{x=-55, y=16, z=-278}
+[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-55, y=17, z=-278} class_2338{x=-55, y=16, z=-278}
+[17:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-55, y=17, z=-278} class_2338{x=-55, y=16, z=-278}
+[17:25:11] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [Who is Cutting Onions?]
+[17:35:31] [Server thread/INFO]: [Not Secure] <sleepy> hello?
+[17:35:35] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ye
+[17:35:43] [Server thread/INFO]: [Not Secure] <NagaTheCutie> ur talking
+[17:35:55] [Server thread/INFO]: [Not Secure] <sleepy> my vc kinda broke
+[17:36:37] [Server thread/INFO]: [Not Secure] <sleepy> whats your thoughts on my bbc and a pussy laying on the same bed?
+[17:36:45] [Server thread/INFO]: [Not Secure] <NagaTheCutie> bro
+[19:30:45] [Server thread/INFO]: [sleepy: Made TurtleNeckStew64 a server operator]
+[19:31:29] [Server thread/INFO]: [TurtleNeckStew64: Kicked NagaTheCutie: Kicked by an operator]
+[19:31:29] [Server thread/INFO]: NagaTheCutie lost connection: Kicked by an operator
+[19:31:29] [Server thread/INFO]: NagaTheCutie left the game
+[19:31:34] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1072] logged in with entity id 130419 at (-92.8376466881103, 64.0, -11.048353065318894)
+[19:31:34] [Server thread/INFO]: NagaTheCutie joined the game
+[19:32:21] [Server thread/INFO]: [sleepy: Whitelist is now turned off]
+[19:32:57] [Server thread/INFO]: [sleepy: Whitelist is now turned on]
+[19:33:31] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@76724318[id=c4e4fa74-75ee-3f05-a991-4c67be7fa107,name=Superfly_Number5,properties={},legacy=false] (/127.0.0.1:1109): You are not white-listed on this server!
+[19:33:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@76724318[id=c4e4fa74-75ee-3f05-a991-4c67be7fa107,name=Superfly_Number5,properties={},legacy=false] (/127.0.0.1:1109) lost connection: You are not white-listed on this server!
+[19:33:32] [Server thread/WARN]: handleDisconnection() called twice
+[19:33:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1bf5e378[id=c4e4fa74-75ee-3f05-a991-4c67be7fa107,name=Superfly_Number5,properties={},legacy=false] (/127.0.0.1:1112): You are not white-listed on this server!
+[19:33:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@1bf5e378[id=c4e4fa74-75ee-3f05-a991-4c67be7fa107,name=Superfly_Number5,properties={},legacy=false] (/127.0.0.1:1112) lost connection: You are not white-listed on this server!
+[19:33:40] [Server thread/WARN]: handleDisconnection() called twice
+[19:33:44] [Server thread/INFO]: [sleepy: Whitelist is now turned off]
+[19:33:45] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1114] logged in with entity id 130821 at (6.5, 72.0, -1.5)
+[19:33:45] [Server thread/INFO]: Superfly_Number5 joined the game
+[19:34:01] [Server thread/INFO]: Superfly_Number5 was slain by TurtleNeckStew64 using [我不喜欢黑人]
+[19:34:08] [Server thread/INFO]: Superfly_Number5 was slain by TurtleNeckStew64 using [我不喜欢黑人]
+[19:34:30] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[19:34:30] [Server thread/INFO]: Superfly_Number5 left the game
+[19:34:43] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1131] logged in with entity id 131000 at (43.48802787225571, 64.12160004615784, 41.72433645314947)
+[19:34:43] [Server thread/INFO]: Superfly_Number5 joined the game
+[19:35:28] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[19:35:28] [Server thread/INFO]: Superfly_Number5 left the game
+[19:35:35] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1145] logged in with entity id 131204 at (11.566476207886303, 82.0, 2.6793027636691984)
+[19:35:35] [Server thread/INFO]: Superfly_Number5 joined the game
+[19:36:35] [Server thread/INFO]: Superfly_Number5 was slain by TurtleNeckStew64 using [我不喜欢黑人]
+[19:36:48] [Server thread/INFO]: Superfly_Number5 was slain by sleepy using [SUP BITCH]
+[19:37:05] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[19:37:05] [Server thread/INFO]: Superfly_Number5 left the game
+[19:37:12] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1175] logged in with entity id 131524 at (22.93837485693479, 81.0, -25.855131248476752)
+[19:37:12] [Server thread/INFO]: Superfly_Number5 joined the game
+[19:37:34] [Server thread/INFO]: Superfly_Number5 was slain by sleepy using [SUP BITCH]
+[19:38:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1, y=73, z=0}
+[19:38:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1, y=73, z=-1}
+[19:38:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-5, y=73, z=-4}
+[19:38:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=1, y=73, z=0}
+[19:39:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=74, z=7} class_2338{x=7, y=63, z=-4}
+[19:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=74, z=7} class_2338{x=7, y=63, z=-4}
+[19:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=74, z=7} class_2338{x=7, y=63, z=-4}
+[19:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=74, z=7} class_2338{x=7, y=63, z=-4}
+[19:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=21, y=74, z=7} class_2338{x=7, y=63, z=-4}
+[19:40:38] [Server thread/INFO]: Superfly_Number5 was slain by Zombie
+[19:40:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=4, y=63, z=-10}
+[19:40:57] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[19:40:57] [Server thread/INFO]: Superfly_Number5 left the game
+[19:41:00] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1273] logged in with entity id 132237 at (5.507519048993365, 63.0, -4.693146858680699)
+[19:41:00] [Server thread/INFO]: Superfly_Number5 joined the game
+[19:42:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=3, y=63, z=-11}
+[19:42:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=5, y=64, z=-11}
+[19:42:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=6, y=63, z=-11}
+[19:42:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=5, y=64, z=-11}
+[19:44:00] [Server thread/INFO]: ineedmymnms[/127.0.0.1:1386] logged in with entity id 132667 at (-99.95934865164978, 63.0, -62.70280594450705)
+[19:44:00] [Server thread/INFO]: ineedmymnms joined the game
+[19:44:12] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[19:44:12] [Server thread/INFO]: NagaTheCutie left the game
+[19:44:58] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1410] logged in with entity id 132813 at (-91.61832023322512, 37.0, -9.99629053231642)
+[19:44:58] [Server thread/INFO]: NagaTheCutie joined the game
+[19:46:38] [Server thread/INFO]: Superfly_Number5 has made the advancement [Cover Me with Diamonds]
+[19:52:29] [Server thread/INFO]: ineedmymnms has made the advancement [A Seedy Place]
+[19:53:21] [Server thread/INFO]: Superfly_Number5 has made the advancement [Acquire Hardware]
+[19:54:02] [Server thread/INFO]: ineedmymnms has made the advancement [The Parrots and the Bats]
+[19:55:44] [Server thread/INFO]: Superfly_Number5 has made the advancement [Monster Hunter]
+[19:56:05] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[19:56:05] [Server thread/INFO]: TurtleNeckStew64 left the game
+[19:56:17] [Server thread/INFO]: Superfly_Number5 has made the advancement [Sweet Dreams]
+[19:56:58] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1130] logged in with entity id 135535 at (-111.52905390835505, 68.0, 170.54049068320205)
+[19:56:58] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[20:00:03] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [Best Friends Forever]
+[20:01:47] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:01:47] [Server thread/INFO]: Superfly_Number5 left the game
+[20:01:55] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1209] logged in with entity id 137937 at (-90.64768035222896, 63.0, -16.73736023071627)
+[20:01:55] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:02:25] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:02:25] [Server thread/INFO]: Superfly_Number5 left the game
+[20:02:30] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1227] logged in with entity id 138310 at (-90.64768035222896, 63.0, -16.73736023071627)
+[20:02:30] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:03:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=48, z=-167} class_2338{x=-4, y=48, z=-165}
+[20:03:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=48, z=-167} class_2338{x=-4, y=48, z=-165}
+[20:05:16] [Server thread/INFO]: ineedmymnms was slain by Piglin
+[20:05:49] [Server thread/INFO]: [Not Secure] <sleepy> 30 -200
+[20:06:34] [Server thread/INFO]: ineedmymnms tried to swim in lava to escape Piglin
+[20:07:11] [Server thread/INFO]: [Not Secure] <sleepy> 34 -189
+[20:08:12] [Server thread/INFO]: Superfly_Number5 has made the advancement [We Need to Go Deeper]
+[20:08:30] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:08:30] [Server thread/INFO]: Superfly_Number5 left the game
+[20:08:35] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1340] logged in with entity id 141475 at (-16.22262000176002, 69.0, -15.5)
+[20:08:35] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:09:28] [Server thread/INFO]: ineedmymnms has made the advancement [Not Today, Thank You]
+[20:10:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=16, y=65, z=-246} class_2338{x=16, y=64, z=-246}
+[20:12:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=18, y=67, z=-408} class_2338{x=18, y=66, z=-407}
+[20:12:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=18, y=67, z=-408} class_2338{x=18, y=66, z=-407}
+[20:22:14] [Server thread/INFO]: Superfly_Number5 has made the advancement [What a Deal!]
+[20:22:18] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> can i clear wheather
+[20:22:21] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> weather
+[20:22:29] [Server thread/INFO]: [Not Secure] <sleepy> thats cheating
+[20:22:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> barely tho
+[20:22:39] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> its just annoying
+[20:22:48] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> not really using it to get stuff
+[20:22:48] [Server thread/INFO]: [Not Secure] <sleepy> yea its annoying but still
+[20:22:51] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> alr
+[20:22:52] [Server thread/INFO]: [Not Secure] <sleepy> idk but yea
+[20:22:56] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[20:23:00] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> 0_0
+[20:23:10] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> its still rainig
+[20:23:13] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> raining
+[20:23:16] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[20:23:20] [Server thread/INFO]: [Not Secure] <sleepy> im in the nether prob
+[20:23:24] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ye
+[20:23:26] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> its fine
+[20:24:25] [Server thread/INFO]: [TurtleNeckStew64: Removed 448 items from player TurtleNeckStew64]
+[20:24:29] [Server thread/INFO]: [Not Secure] <sleepy> ?
+[20:24:30] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> whoops
+[20:24:30] [Server thread/INFO]: [Not Secure] <sleepy> wtf
+[20:24:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> uh
+[20:24:36] [Server thread/INFO]: [Not Secure] <sleepy> ???????????
+[20:24:39] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> shit
+[20:24:39] [Server thread/INFO]: [Not Secure] <sleepy> zach holy shit
+[20:24:45] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i gotta get my stuff back
+[20:24:52] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> never give me op bro
+[20:24:56] [Server thread/INFO]: [Not Secure] <sleepy> ok
+[20:24:59] [Server thread/INFO]: [Not Secure] <sleepy> taking your op away
+[20:25:02] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> can i get stuff back rq
+[20:25:06] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> or nah
+[20:25:11] [Server thread/INFO]: [Not Secure] <sleepy> you cant do it
+[20:25:15] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> k
+[20:25:16] [Server thread/INFO]: [Not Secure] <sleepy> unless you go to the back up
+[20:25:20] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> shittttt
+[20:25:27] [Server thread/INFO]: [Not Secure] <sleepy> but the last back up was like today morning
+[20:25:38] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> can i go creative and just get the armor
+[20:25:41] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i mean sword
+[20:25:42] [Server thread/INFO]: [Not Secure] <sleepy> no
+[20:25:45] [Server thread/INFO]: [Not Secure] <sleepy> just get it back
+[20:25:50] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> bruhhhhh
+[20:26:07] [Server thread/INFO]: [Not Secure] <sleepy> you were the one who acciently removed your inventory...
+[20:26:08] [Server thread/INFO]: Superfly_Number5 fell from a high place
+[20:26:29] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> not on purpose
+[20:26:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i was tryna clear weather
+[20:26:36] [Server thread/INFO]: [Not Secure] <sleepy> yea but still
+[20:26:45] [Server thread/INFO]: [Not Secure] <sleepy> im trying to use the least command
+[20:27:01] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> bro
+[20:27:03] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> just the sword
+[20:27:07] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> pls
+[20:27:08] [Server thread/INFO]: [Not Secure] <sleepy> what about it
+[20:27:12] [Server thread/INFO]: [Not Secure] <sleepy> no dude
+[20:27:16] [Server thread/INFO]: [Not Secure] <sleepy> sorry
+[20:27:33] [Server thread/INFO]: [Not Secure] <sleepy> acturally
+[20:27:35] [Server thread/INFO]: [Not Secure] <sleepy> look zach
+[20:27:41] [Server thread/INFO]: [Not Secure] <sleepy> how about this
+[20:27:41] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> wat
+[20:27:45] [Server thread/INFO]: [Not Secure] <sleepy> ill spawn you back your sword
+[20:27:52] [Server thread/INFO]: [Not Secure] <sleepy> tell me what sword is it and what enchantment is it
+[20:27:52] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:27:52] [Server thread/INFO]: Superfly_Number5 left the game
+[20:27:56] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1662] logged in with entity id 152578 at (-32.02212911860125, 45.0, -36.642752290622134)
+[20:27:56] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:28:04] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> just the sword
+[20:28:07] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ill just re enchant it
+[20:28:08] [Server thread/INFO]: [Not Secure] <sleepy> diamond sword?
+[20:28:13] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> netherite
+[20:28:17] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> pic and sword...
+[20:28:19] [Server thread/INFO]: [Not Secure] <sleepy> ok ok
+[20:28:25] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> just sword is fine tho
+[20:28:36] [Server thread/INFO]: [sleepy: Gave 1 [Netherite Sword] to TurtleNeckStew64]
+[20:28:38] [Server thread/INFO]: Superfly_Number5 tried to swim in lava
+[20:28:49] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> tya
+[20:30:12] [Server thread/INFO]: Superfly_Number5 tried to swim in lava
+[20:30:22] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> bro
+[20:33:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-104, y=44, z=-52} class_2338{x=-104, y=45, z=-52}
+[20:34:24] [Server thread/INFO]: [Not Secure] <sleepy> zach
+[20:34:27] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> yuh
+[20:34:28] [Server thread/INFO]: [Not Secure] <sleepy> do you want your pick back?
+[20:34:33] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i already got another
+[20:34:35] [Server thread/INFO]: [Not Secure] <sleepy> and your enchanement?
+[20:34:45] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> uhhhhh
+[20:34:46] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> nah
+[20:35:12] [Server thread/INFO]: [Not Secure] <sleepy> sleep
+[20:35:14] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[20:35:14] [Server thread/INFO]: TurtleNeckStew64 left the game
+[20:35:15] [Server thread/INFO]: [Not Secure] <Superfly_Number5> sleep
+[20:35:17] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[20:35:17] [Server thread/INFO]: NagaTheCutie left the game
+[20:35:18] [Server thread/INFO]: [Not Secure] <sleepy> so the villagers reset
+[20:35:32] [Server thread/INFO]: Superfly_Number5 was slain by sleepy using [Ho]
+[20:35:57] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:35:57] [Server thread/INFO]: Superfly_Number5 left the game
+[20:35:59] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1779] logged in with entity id 155705 at (-93.30237094474562, 62.1875, -12.602863866146976)
+[20:35:59] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[20:36:02] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1783] logged in with entity id 155722 at (-114.30464986478859, 63.0, -59.36695742084273)
+[20:36:02] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:36:32] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:36:32] [Server thread/INFO]: Superfly_Number5 left the game
+[20:36:36] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1796] logged in with entity id 155855 at (-114.30464986478859, 63.0, -59.36695742084273)
+[20:36:36] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:39:00] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1831] logged in with entity id 156336 at (-96.63638253934941, 37.0, -7.588820540052789)
+[20:39:00] [Server thread/INFO]: NagaTheCutie joined the game
+[20:39:31] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> u got sharpness book?
+[20:40:01] [Server thread/INFO]: [Not Secure] <sleepy> anyone has mending or a book rn?
+[20:42:04] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> yo
+[20:42:07] [Server thread/INFO]: [Not Secure] <sleepy> ?
+[20:42:10] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ur magma cube is outside
+[20:42:16] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i think it got through the whole in the roof
+[20:42:16] [Server thread/INFO]: [Not Secure] <sleepy> get it back in
+[20:42:32] [Server thread/INFO]: Superfly_Number5 has made the advancement [A Seedy Place]
+[20:43:57] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ronin get outa there
+[20:44:22] [Server thread/INFO]: [Not Secure] <sleepy> why y'all not in vc?
+[20:44:28] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> playing fortnite
+[20:44:36] [Server thread/INFO]: Superfly_Number5 lost connection: Timed out
+[20:44:36] [Server thread/INFO]: Superfly_Number5 left the game
+[20:44:43] [Server thread/INFO]: Superfly_Number5[/127.0.0.1:1927] logged in with entity id 157431 at (-141.48661185534624, 62.0, -22.619167898611458)
+[20:44:43] [Server thread/INFO]: Superfly_Number5 joined the game
+[20:45:55] [Server thread/INFO]: [Not Secure] <ineedmymnms> sleep
+[20:46:37] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> sleep or dc
+[20:46:51] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[20:46:51] [Server thread/INFO]: NagaTheCutie left the game
+[20:47:28] [Server thread/INFO]: Superfly_Number5 lost connection: Disconnected
+[20:47:28] [Server thread/INFO]: Superfly_Number5 left the game
+[20:48:47] [Server thread/INFO]: sleepy lost connection: Disconnected
+[20:48:47] [Server thread/INFO]: sleepy left the game
+[20:49:13] [Server thread/INFO]: sleepy[/127.0.0.1:1996] logged in with entity id 158332 at (-162.36363575122365, 64.0, -50.516610586025415)
+[20:49:13] [Server thread/INFO]: sleepy joined the game
+[20:49:23] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> anyone got bones
+[20:49:27] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> i lost mine
+[20:49:28] [Server thread/INFO]: [Not Secure] <sleepy> yea
+[20:49:30] [Server thread/INFO]: [Not Secure] <sleepy> i have 11
+[20:49:35] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> gimme pls
+[20:49:41] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> ty
+[20:49:47] [Server thread/INFO]: [Not Secure] <sleepy> yw
+[20:51:10] [Server thread/INFO]: sleepy lost connection: Disconnected
+[20:51:10] [Server thread/INFO]: sleepy left the game
+[20:51:23] [Server thread/INFO]: sleepy[/127.0.0.1:2032] logged in with entity id 159077 at (-163.62669119990866, 63.5, -48.91253616055795)
+[20:51:23] [Server thread/INFO]: sleepy joined the game
+[20:53:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=48, z=-45} class_2338{x=-99, y=46, z=-45}
+[20:53:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=48, z=-45} class_2338{x=-99, y=46, z=-45}
+[20:53:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-92, y=48, z=-40} class_2338{x=-92, y=46, z=-40}
+[20:58:55] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
+[20:58:55] [Server thread/INFO]: ineedmymnms left the game
+[21:00:31] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> wanna play val
+[21:00:35] [Server thread/INFO]: [Not Secure] <sleepy> naw
+[21:00:39] [Server thread/INFO]: [Not Secure] <sleepy> dont got time
+[21:03:40] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:19321] logged in with entity id 166139 at (-106.27046787412927, 66.0, -15.753578357903482)
+[21:03:40] [Server thread/INFO]: NagaTheCutie joined the game
+[21:03:48] [Server thread/INFO]: [Not Secure] <sleepy> discord
+[21:03:49] [Server thread/INFO]: [Not Secure] <sleepy> vc
+[21:04:28] [Server thread/INFO]: [Not Secure] <sleepy> vc
+[21:04:30] [Server thread/INFO]: [Not Secure] <NagaTheCutie> wat
+[21:04:37] [Server thread/INFO]: [Not Secure] <sleepy> guys
+[21:06:26] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[21:06:26] [Server thread/INFO]: NagaTheCutie left the game
+[21:06:28] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[21:06:28] [Server thread/INFO]: TurtleNeckStew64 left the game
+[21:06:30] [Server thread/INFO]: sleepy lost connection: Disconnected
+[21:06:30] [Server thread/INFO]: sleepy left the game
+[21:06:38] [Server thread/INFO]: Stopping the server
+[21:06:38] [Server thread/INFO]: Stopping server
+[21:06:38] [Server thread/INFO]: Saving players
+[21:06:38] [Server thread/INFO]: Saving worlds
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:06:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:06:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:06:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:06:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:06:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
