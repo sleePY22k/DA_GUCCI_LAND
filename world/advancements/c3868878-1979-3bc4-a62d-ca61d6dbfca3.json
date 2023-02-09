@@ -851,6 +851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-02-08 18:58:00 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2023-01-31 15:58:53 -0800"
@@ -1407,6 +1413,7 @@
       "minecraft:river": "2023-01-29 21:54:29 -0800",
       "minecraft:lukewarm_ocean": "2023-01-30 20:07:53 -0800",
       "minecraft:stony_shore": "2023-01-31 17:10:23 -0800",
+      "minecraft:cold_ocean": "2023-02-08 19:03:17 -0800",
       "minecraft:forest": "2023-01-30 18:07:39 -0800",
       "minecraft:lush_caves": "2023-01-29 20:06:26 -0800",
       "minecraft:desert": "2023-01-30 20:16:08 -0800",
@@ -1417,6 +1424,7 @@
       "minecraft:deep_lukewarm_ocean": "2023-01-31 16:49:12 -0800",
       "minecraft:flower_forest": "2023-01-31 21:32:18 -0800",
       "minecraft:old_growth_birch_forest": "2023-01-30 18:04:09 -0800",
+      "minecraft:meadow": "2023-02-08 19:01:51 -0800",
       "minecraft:savanna": "2023-01-30 20:08:27 -0800",
       "minecraft:plains": "2023-01-30 20:43:18 -0800"
     },
