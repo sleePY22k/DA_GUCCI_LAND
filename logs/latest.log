@@ -1,23 +1,81 @@
-[17:25:31] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:5834] logged in with entity id 52198 at (-82.68882903155759, 80.0, -5.4260696636339505)
-[17:25:31] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[17:46:18] [Server thread/INFO]: TurtleNeckStew64 lost connection: Timed out
-[17:46:18] [Server thread/INFO]: TurtleNeckStew64 left the game
-[17:46:18] [Server thread/WARN]: handleDisconnection() called twice
-[18:41:05] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:7223] logged in with entity id 55227 at (-92.65453288524878, 63.0, -28.429259791236106)
-[18:41:05] [Server thread/INFO]: TurtleNeckStew64 joined the game
-[19:11:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=71, y=73, z=419} class_2338{x=4, y=63, z=-10}
-[19:16:42] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
-[19:16:42] [Server thread/INFO]: TurtleNeckStew64 left the game
-[19:47:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:47:47] [Server thread/INFO]: 、stop<--[HERE]
-[19:48:08] [Server thread/INFO]: Stopping the server
-[19:48:08] [Server thread/INFO]: Stopping server
-[19:48:08] [Server thread/INFO]: Saving players
-[19:48:08] [Server thread/INFO]: Saving worlds
-[19:48:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:48:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:48:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:48:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:48:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:48:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:48:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:35:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12509558ms or 250191 ticks behind
+[17:04:59] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1052] logged in with entity id 2815 at (-94.41520201551764, 63.0, -16.853556222586256)
+[17:04:59] [Server thread/INFO]: NagaTheCutie joined the game
+[17:05:15] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1070] logged in with entity id 2913 at (-76.69999998807907, 53.0, -12.619956400636017)
+[17:05:15] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[17:18:57] [Server thread/INFO]: TurtleNeckStew64 fell from a high place
+[17:23:38] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> chasiu
+[17:23:48] [Server thread/INFO]: [Not Secure] <TurtleNeckStew64> chashu or charshu
+[17:44:01] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[17:44:01] [Server thread/INFO]: NagaTheCutie left the game
+[17:44:15] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1723] logged in with entity id 13528 at (-821.3035138456908, 72.0, -441.7782842684686)
+[17:44:15] [Server thread/INFO]: NagaTheCutie joined the game
+[17:47:05] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.4531149709446822
+[17:47:05] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.6762565510721288
+[17:47:05] [Server thread/WARN]: Boat (vehicle of TurtleNeckStew64) moved wrongly! 0.8738664213267384
+[17:55:39] [Server thread/INFO]: TurtleNeckStew64 has made the advancement [The Parrots and the Bats]
+[17:56:33] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[17:56:33] [Server thread/INFO]: NagaTheCutie left the game
+[17:56:38] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1921] logged in with entity id 18211 at (-114.30018618307513, 63.0, -60.42213762179991)
+[17:56:38] [Server thread/INFO]: NagaTheCutie joined the game
+[17:56:49] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[17:56:49] [Server thread/INFO]: NagaTheCutie left the game
+[18:05:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1, y=15, z=-162} class_2338{x=2, y=14, z=-162}
+[18:05:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=15, z=-162} class_2338{x=-6, y=14, z=-162}
+[18:05:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7, y=15, z=-162} class_2338{x=-6, y=14, z=-162}
+[18:08:02] [Server thread/INFO]: TurtleNeckStew64 tried to swim in lava
+[18:23:53] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[18:23:53] [Server thread/INFO]: TurtleNeckStew64 left the game
+[20:13:44] [Server thread/INFO]: ineedmymnms[/127.0.0.1:19465] logged in with entity id 23962 at (-138.42461649019268, 63.0, -26.51331397968317)
+[20:13:44] [Server thread/INFO]: ineedmymnms joined the game
+[20:27:26] [Server thread/INFO]: sleepy[/127.0.0.1:19825] logged in with entity id 26634 at (-104.39438712173339, 63.0, -65.6094283351666)
+[20:27:26] [Server thread/INFO]: sleepy joined the game
+[20:43:09] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[20:48:20] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[20:49:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-138, y=63, z=-52} class_2338{x=-139, y=61, z=-48}
+[20:53:25] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[20:57:36] [Server thread/INFO]: [Not Secure] <ineedmymnms> *sex sounds
+[20:58:31] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[21:00:03] [Server thread/INFO]: sleepy has made the advancement [Voluntary Exile]
+[21:03:37] [Server thread/INFO]: [sleepy: Set the weather to clear]
+[21:05:34] [Server thread/INFO]: ineedmymnms has made the advancement [Voluntary Exile]
+[21:09:41] [Server thread/INFO]: sleepy has completed the challenge [Hero of the Village]
+[21:09:41] [Server thread/INFO]: ineedmymnms has completed the challenge [Hero of the Village]
+[21:18:49] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
+[21:18:49] [Server thread/INFO]: ineedmymnms left the game
+[21:20:50] [Server thread/INFO]: ineedmymnms[/127.0.0.1:1320] logged in with entity id 40958 at (-135.42870706552668, 63.0, -27.16363363364161)
+[21:20:50] [Server thread/INFO]: ineedmymnms joined the game
+[21:30:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:30:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-80, y=61, z=-7} class_2338{x=-86, y=64, z=-6}
+[21:31:08] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
+[21:31:08] [Server thread/INFO]: ineedmymnms left the game
+[21:31:21] [Server thread/INFO]: sleepy lost connection: Disconnected
+[21:31:21] [Server thread/INFO]: sleepy left the game
+[21:37:32] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:1617] logged in with entity id 43102 at (-112.17369568219729, 63.5625, -61.41833729319033)
+[21:37:32] [Server thread/INFO]: NagaTheCutie joined the game
+[21:37:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@41888226[id=<null>,name=TurtleNeckStew64,properties={},legacy=false] (/127.0.0.1:1621) lost connection: Disconnected
+[21:37:49] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1627] logged in with entity id 43203 at (-92.30000001192093, 37.0, -12.92338202153807)
+[21:37:49] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[21:40:17] [Server thread/INFO]: TurtleNeckStew64 lost connection: Disconnected
+[21:40:17] [Server thread/INFO]: TurtleNeckStew64 left the game
+[21:40:23] [Server thread/INFO]: TurtleNeckStew64[/127.0.0.1:1660] logged in with entity id 43588 at (-99.36157639286702, 42.0, -19.088033762514797)
+[21:40:23] [Server thread/INFO]: TurtleNeckStew64 joined the game
+[22:00:25] [Server thread/WARN]: NagaTheCutie moved wrongly!
+[22:08:54] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[22:08:54] [Server thread/INFO]: NagaTheCutie left the game
+[22:44:07] [Server thread/INFO]: Stopping the server
+[22:44:07] [Server thread/INFO]: Stopping server
+[22:44:07] [Server thread/INFO]: Saving players
+[22:44:07] [Server thread/INFO]: Saving worlds
+[22:44:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:44:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:44:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:44:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:44:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:44:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:44:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
