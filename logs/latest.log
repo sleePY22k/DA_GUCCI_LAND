@@ -1,87 +1,48 @@
-[19:04:14] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
-[19:04:14] [main/INFO]: Loading 41 mods:
-	- fabric-api 0.73.2+1.19.3
-	- fabric-api-base 0.4.21+70be179c85 via fabric-api
-	- fabric-api-lookup-api-v1 1.6.20+49abcf7e85 via fabric-api
-	- fabric-biome-api-v1 12.1.1+b5d379b085 via fabric-api
-	- fabric-block-api-v1 1.0.5+e022e5d185 via fabric-api
-	- fabric-command-api-v1 1.2.22+f71b366f85 via fabric-api
-	- fabric-command-api-v2 2.2.1+3fc4752e85 via fabric-api
-	- fabric-commands-v0 0.2.39+df3654b385 via fabric-api
-	- fabric-containers-v0 0.1.47+df3654b385 via fabric-api
-	- fabric-content-registries-v0 3.5.1+1d37d50285 via fabric-api
-	- fabric-convention-tags-v1 1.2.2+8e4e694f85 via fabric-api
-	- fabric-crash-report-info-v1 0.2.14+aeb40ebe85 via fabric-api
-	- fabric-data-generation-api-v1 11.2.1+06937c4b85 via fabric-api
-	- fabric-dimensions-v1 2.1.41+48349a3f85 via fabric-api
-	- fabric-entity-events-v1 1.5.7+b83334a085 via fabric-api
-	- fabric-events-interaction-v0 0.4.40+3baeb27a85 via fabric-api
-	- fabric-events-lifecycle-v0 0.2.44+df3654b385 via fabric-api
-	- fabric-game-rule-api-v1 1.0.30+99f9db8085 via fabric-api
-	- fabric-item-api-v1 2.1.10+312c329485 via fabric-api
-	- fabric-item-group-api-v1 2.1.12+1134c5b885 via fabric-api
-	- fabric-lifecycle-events-v1 2.2.10+23a79c8a85 via fabric-api
-	- fabric-loot-api-v2 1.1.20+75e9821185 via fabric-api
-	- fabric-loot-tables-v1 1.1.24+9e7660c685 via fabric-api
-	- fabric-message-api-v1 5.0.14+6ede1da985 via fabric-api
-	- fabric-mining-level-api-v1 2.1.31+49abcf7e85 via fabric-api
-	- fabric-networking-api-v1 1.2.17+4017a8cb85 via fabric-api
-	- fabric-networking-v0 0.3.34+df3654b385 via fabric-api
-	- fabric-object-builder-api-v1 5.4.1+eb2a3ba985 via fabric-api
-	- fabric-particles-v1 1.0.20+f1e4495b85 via fabric-api
-	- fabric-recipe-api-v1 1.0.1+5176f73d85 via fabric-api
-	- fabric-registry-sync-v0 2.0.5+1134c5b885 via fabric-api
-	- fabric-rendering-data-attachment-v1 0.3.25+afca2f3e85 via fabric-api
-	- fabric-rendering-fluids-v1 3.0.18+f1e4495b85 via fabric-api
-	- fabric-resource-conditions-api-v1 2.2.3+1134c5b885 via fabric-api
-	- fabric-resource-loader-v0 0.10.5+a91e48b785 via fabric-api
-	- fabric-screen-handler-api-v1 1.3.13+99f9db8085 via fabric-api
-	- fabric-transfer-api-v1 2.1.15+ccd377ba85 via fabric-api
-	- fabric-transitive-access-wideners-v1 2.3.1+5b9a588b85 via fabric-api
-	- fabricloader 0.14.13
-	- java 19
-	- minecraft 1.19.3
-[19:04:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/mcserver/DA_UCCI_LAND/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[19:04:14] [main/INFO]: Compatibility level set to JAVA_16
-[19:04:14] [main/INFO]: Compatibility level set to JAVA_17
-[19:04:19] [main/INFO]: Building unoptimized datafixer
-[19:04:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:04:22] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[19:04:22] [main/INFO]: Loaded 7 recipes
-[19:04:23] [main/INFO]: Loaded 1179 advancements
-[19:04:23] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 1.444 ms
-[19:04:24] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[19:04:24] [Server thread/INFO]: Loading properties
-[19:04:24] [Server thread/INFO]: Default game type: SURVIVAL
-[19:04:24] [Server thread/INFO]: Generating keypair
-[19:04:24] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[19:04:24] [Server thread/INFO]: Using default channel type
-[19:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:04:24] [Server thread/INFO]: Preparing level "world"
-[19:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:04:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[19:04:28] [Worker-Main-13/INFO]: Preparing spawn area: 5%
-[19:04:29] [Worker-Main-9/INFO]: Preparing spawn area: 72%
-[19:04:29] [Server thread/INFO]: Time elapsed: 3626 ms
-[19:04:29] [Server thread/INFO]: Done (4.853s)! For help, type "help"
-[19:05:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:05:04] [Server thread/INFO]: stop4<--[HERE]
-[19:05:08] [Server thread/INFO]: Stopping the server
-[19:05:08] [Server thread/INFO]: Stopping server
-[19:05:08] [Server thread/INFO]: Saving players
-[19:05:08] [Server thread/INFO]: Saving worlds
-[19:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:06:41] [Server thread/INFO]: sleepy lost connection: Disconnected
+[08:06:41] [Server thread/INFO]: sleepy left the game
+[10:58:44] [Server thread/INFO]: Ping008[/127.0.0.1:1641] logged in with entity id 787559 at (-110.6690490383061, 64.5, -57.17501149949313)
+[10:58:44] [Server thread/INFO]: Ping008 joined the game
+[11:36:29] [Server thread/INFO]: Ping008 has made the advancement [We Need to Go Deeper]
+[11:38:57] [Server thread/INFO]: [Not Secure] <Ping008> -15 69 -16
+[11:40:23] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[11:40:23] [Server thread/INFO]: Ping008 left the game
+[11:43:53] [Server thread/INFO]: Ping008[/127.0.0.1:1739] logged in with entity id 797241 at (-95.80436410144213, 15.0, 22.414043046809088)
+[11:43:53] [Server thread/INFO]: Ping008 joined the game
+[11:44:00] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[11:44:00] [Server thread/INFO]: Ping008 left the game
+[11:45:11] [Server thread/INFO]: Ping008[/127.0.0.1:1767] logged in with entity id 797511 at (-95.80436410144213, 15.0, 22.414043046809088)
+[11:45:11] [Server thread/INFO]: Ping008 joined the game
+[11:47:16] [Server thread/INFO]: Ping008 has made the advancement [Hidden in the Depths]
+[11:58:11] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[11:58:11] [Server thread/INFO]: Ping008 left the game
+[12:17:07] [Server thread/INFO]: Ping008[/127.0.0.1:1250] logged in with entity id 802192 at (130.25073845635455, 15.0, 46.50882595522227)
+[12:17:07] [Server thread/INFO]: Ping008 joined the game
+[12:23:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=13, y=16, z=-70} class_2338{x=12, y=16, z=-70}
+[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.40760548040270805
+[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4215251870828638
+[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4318142912818246
+[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4388379967731879
+[12:44:02] [Server thread/INFO]: Ping008 has completed the challenge [Return to Sender]
+[12:45:03] [Server thread/WARN]: Ping008 moved too quickly! -5.6008505018166375,0.0994669059075477,-8.334330426852631
+[12:55:03] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[12:55:03] [Server thread/INFO]: Ping008 left the game
+[13:02:31] [Server thread/INFO]: Ping008[/127.0.0.1:2057] logged in with entity id 811676 at (-125.46126487339225, 63.0, -60.4379053822965)
+[13:02:31] [Server thread/INFO]: Ping008 joined the game
+[13:03:15] [Server thread/INFO]: Ping008 has completed the challenge [Cover Me in Debris]
+[13:03:58] [Server thread/INFO]: Ping008 lost connection: Disconnected
+[13:03:58] [Server thread/INFO]: Ping008 left the game
+[13:23:41] [Server thread/INFO]: ineedmymnms[/127.0.0.1:2417] logged in with entity id 811989 at (-259.45092298029164, 39.0, -327.44292270406334)
+[13:23:41] [Server thread/INFO]: ineedmymnms joined the game
+[13:31:06] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
+[13:31:06] [Server thread/INFO]: ineedmymnms left the game
+[16:07:15] [Server thread/INFO]: Stopping the server
+[16:07:15] [Server thread/INFO]: Stopping server
+[16:07:15] [Server thread/INFO]: Saving players
+[16:07:15] [Server thread/INFO]: Saving worlds
+[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
