@@ -1,48 +1,13 @@
-[08:06:41] [Server thread/INFO]: sleepy lost connection: Disconnected
-[08:06:41] [Server thread/INFO]: sleepy left the game
-[10:58:44] [Server thread/INFO]: Ping008[/127.0.0.1:1641] logged in with entity id 787559 at (-110.6690490383061, 64.5, -57.17501149949313)
-[10:58:44] [Server thread/INFO]: Ping008 joined the game
-[11:36:29] [Server thread/INFO]: Ping008 has made the advancement [We Need to Go Deeper]
-[11:38:57] [Server thread/INFO]: [Not Secure] <Ping008> -15 69 -16
-[11:40:23] [Server thread/INFO]: Ping008 lost connection: Disconnected
-[11:40:23] [Server thread/INFO]: Ping008 left the game
-[11:43:53] [Server thread/INFO]: Ping008[/127.0.0.1:1739] logged in with entity id 797241 at (-95.80436410144213, 15.0, 22.414043046809088)
-[11:43:53] [Server thread/INFO]: Ping008 joined the game
-[11:44:00] [Server thread/INFO]: Ping008 lost connection: Disconnected
-[11:44:00] [Server thread/INFO]: Ping008 left the game
-[11:45:11] [Server thread/INFO]: Ping008[/127.0.0.1:1767] logged in with entity id 797511 at (-95.80436410144213, 15.0, 22.414043046809088)
-[11:45:11] [Server thread/INFO]: Ping008 joined the game
-[11:47:16] [Server thread/INFO]: Ping008 has made the advancement [Hidden in the Depths]
-[11:58:11] [Server thread/INFO]: Ping008 lost connection: Disconnected
-[11:58:11] [Server thread/INFO]: Ping008 left the game
-[12:17:07] [Server thread/INFO]: Ping008[/127.0.0.1:1250] logged in with entity id 802192 at (130.25073845635455, 15.0, 46.50882595522227)
-[12:17:07] [Server thread/INFO]: Ping008 joined the game
-[12:23:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=13, y=16, z=-70} class_2338{x=12, y=16, z=-70}
-[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.40760548040270805
-[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4215251870828638
-[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4318142912818246
-[12:36:45] [Server thread/WARN]: Boat (vehicle of Ping008) moved wrongly! 0.4388379967731879
-[12:44:02] [Server thread/INFO]: Ping008 has completed the challenge [Return to Sender]
-[12:45:03] [Server thread/WARN]: Ping008 moved too quickly! -5.6008505018166375,0.0994669059075477,-8.334330426852631
-[12:55:03] [Server thread/INFO]: Ping008 lost connection: Disconnected
-[12:55:03] [Server thread/INFO]: Ping008 left the game
-[13:02:31] [Server thread/INFO]: Ping008[/127.0.0.1:2057] logged in with entity id 811676 at (-125.46126487339225, 63.0, -60.4379053822965)
-[13:02:31] [Server thread/INFO]: Ping008 joined the game
-[13:03:15] [Server thread/INFO]: Ping008 has completed the challenge [Cover Me in Debris]
-[13:03:58] [Server thread/INFO]: Ping008 lost connection: Disconnected
-[13:03:58] [Server thread/INFO]: Ping008 left the game
-[13:23:41] [Server thread/INFO]: ineedmymnms[/127.0.0.1:2417] logged in with entity id 811989 at (-259.45092298029164, 39.0, -327.44292270406334)
-[13:23:41] [Server thread/INFO]: ineedmymnms joined the game
-[13:31:06] [Server thread/INFO]: ineedmymnms lost connection: Disconnected
-[13:31:06] [Server thread/INFO]: ineedmymnms left the game
-[16:07:15] [Server thread/INFO]: Stopping the server
-[16:07:15] [Server thread/INFO]: Stopping server
-[16:07:15] [Server thread/INFO]: Saving players
-[16:07:15] [Server thread/INFO]: Saving worlds
-[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:07:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:07:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:31:33] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
+[03:31:33] [Server thread/INFO]: NagaTheCutie left the game
+[13:25:22] [Server thread/INFO]: Stopping the server
+[13:25:22] [Server thread/INFO]: Stopping server
+[13:25:22] [Server thread/INFO]: Saving players
+[13:25:22] [Server thread/INFO]: Saving worlds
+[13:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:25:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:25:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:25:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:25:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:25:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
