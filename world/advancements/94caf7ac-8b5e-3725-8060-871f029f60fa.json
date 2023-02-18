@@ -77,9 +77,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2023-02-17 21:56:08 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-01-29 20:43:39 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2023-02-17 21:51:35 -0800"
     },
     "done": true
   },
@@ -116,6 +128,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2023-01-30 17:26:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2023-02-17 21:56:21 -0800"
     },
     "done": true
   },
@@ -413,6 +431,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-02-17 22:05:58 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-01-29 21:04:16 -0800"
@@ -548,6 +572,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2023-01-30 17:16:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2023-02-17 21:59:43 -0800"
     },
     "done": true
   },
@@ -754,7 +784,8 @@
       "minecraft:piglin": "2023-02-05 12:31:23 -0800",
       "minecraft:enderman": "2023-01-31 17:43:15 -0800",
       "minecraft:zombie": "2023-01-29 20:49:24 -0800",
-      "minecraft:drowned": "2023-01-30 17:08:33 -0800"
+      "minecraft:drowned": "2023-01-30 17:08:33 -0800",
+      "minecraft:zombie_villager": "2023-02-17 21:34:32 -0800"
     },
     "done": false
   },
@@ -986,6 +1017,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-02-17 22:15:57 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2023-01-29 20:35:21 -0800"
@@ -1073,6 +1110,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2023-02-11 17:53:34 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-02-17 21:56:43 -0800"
     },
     "done": true
   },
@@ -1229,6 +1272,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2023-01-30 20:17:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-02-17 18:19:56 -0800"
     },
     "done": true
   },
@@ -1517,8 +1566,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2023-02-01 16:44:10 -0800",
+      "minecraft:taiga": "2023-02-17 22:14:04 -0800",
       "minecraft:deep_ocean": "2023-02-03 20:42:27 -0800",
       "minecraft:eroded_badlands": "2023-01-31 17:12:59 -0800",
+      "minecraft:frozen_river": "2023-02-17 22:22:41 -0800",
+      "minecraft:sunflower_plains": "2023-02-17 21:59:21 -0800",
       "minecraft:birch_forest": "2023-02-03 20:52:48 -0800",
       "minecraft:bamboo_jungle": "2023-01-31 16:46:41 -0800",
       "minecraft:wooded_badlands": "2023-01-31 17:06:58 -0800",
@@ -1529,15 +1581,23 @@
       "minecraft:lukewarm_ocean": "2023-01-30 20:07:53 -0800",
       "minecraft:river": "2023-01-30 20:10:56 -0800",
       "minecraft:stony_shore": "2023-01-31 17:10:22 -0800",
+      "minecraft:snowy_plains": "2023-02-17 22:27:17 -0800",
+      "minecraft:dripstone_caves": "2023-02-17 22:04:22 -0800",
+      "minecraft:snowy_taiga": "2023-02-17 22:23:05 -0800",
+      "minecraft:cold_ocean": "2023-02-17 22:18:30 -0800",
       "minecraft:forest": "2023-01-30 20:07:14 -0800",
       "minecraft:lush_caves": "2023-01-29 20:31:53 -0800",
+      "minecraft:frozen_ocean": "2023-02-17 22:22:08 -0800",
       "minecraft:desert": "2023-01-30 20:16:13 -0800",
       "minecraft:ocean": "2023-01-29 20:29:52 -0800",
       "minecraft:jungle": "2023-01-31 17:00:58 -0800",
       "minecraft:old_growth_spruce_taiga": "2023-02-05 14:20:50 -0800",
+      "minecraft:snowy_beach": "2023-02-17 22:22:48 -0800",
       "minecraft:warm_ocean": "2023-01-31 17:10:07 -0800",
       "minecraft:deep_lukewarm_ocean": "2023-01-31 16:49:12 -0800",
+      "minecraft:flower_forest": "2023-02-17 21:55:46 -0800",
       "minecraft:old_growth_birch_forest": "2023-01-29 20:34:53 -0800",
+      "minecraft:meadow": "2023-02-17 22:03:55 -0800",
       "minecraft:savanna": "2023-01-30 20:08:22 -0800",
       "minecraft:plains": "2023-01-30 20:43:17 -0800"
     },
@@ -1651,6 +1711,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2023-02-17 21:56:13 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-01-29 20:32:20 -0800"
@@ -1666,6 +1732,12 @@
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2023-02-03 21:57:29 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2023-02-17 21:56:04 -0800"
     },
     "done": true
   },
@@ -2514,6 +2586,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2023-02-17 21:51:35 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2023-01-29 20:29:52 -0800"
@@ -2826,9 +2904,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2023-02-17 21:58:43 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-01-29 20:43:39 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2023-02-17 21:51:35 -0800"
     },
     "done": true
   },
@@ -2877,6 +2967,12 @@
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-02-05 15:52:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-02-17 21:58:30 -0800"
     },
     "done": true
   },
@@ -3282,6 +3378,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2023-02-17 22:00:18 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-01-29 21:23:27 -0800"
@@ -3363,6 +3465,12 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2023-02-06 18:41:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2023-02-17 21:56:21 -0800"
     },
     "done": true
   },

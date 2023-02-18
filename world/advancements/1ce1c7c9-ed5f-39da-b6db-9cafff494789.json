@@ -1013,6 +1013,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-02-17 20:25:29 -0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2023-02-03 18:43:10 -0800"
@@ -1973,6 +1979,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2023-02-17 20:39:34 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2023-01-29 20:33:52 -0800"
@@ -2478,7 +2490,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2023-01-31 21:28:34 -0800",
-      "minecraft:cow": "2023-02-09 20:45:39 -0800"
+      "minecraft:cow": "2023-02-09 20:45:39 -0800",
+      "minecraft:axolotl": "2023-02-17 21:47:25 -0800"
     },
     "done": false
   },
@@ -2965,6 +2978,12 @@
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-02-05 14:02:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2023-02-17 21:45:26 -0800"
     },
     "done": true
   },
