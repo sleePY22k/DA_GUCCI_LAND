@@ -6,21 +6,15 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "b3fd9760-6d7b-3650-81bf-8dfa01c2ee13",
-    "name": "turtleneckstew",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "76323251-ee26-3110-8440-28becc2d788c",
-    "name": "turtuleneckstew",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "c3868878-1979-3bc4-a62d-ca61d6dbfca3",
     "name": "TurtleNeckStew64",
     "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "10509bb0-5057-469d-90a2-33197e7c8ffd",
+    "name": "Ping008",
+    "level": 3,
     "bypassesPlayerLimit": false
   }
 ]
