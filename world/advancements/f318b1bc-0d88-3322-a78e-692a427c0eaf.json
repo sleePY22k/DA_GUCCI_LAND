@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2023-03-01 21:44:10 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2023-02-24 17:21:45 -0800"
@@ -580,6 +586,7 @@
       "minecraft:skeleton": "2023-02-24 23:33:21 -0800",
       "minecraft:spider": "2023-02-25 00:05:02 -0800",
       "minecraft:phantom": "2023-02-28 21:52:57 -0800",
+      "minecraft:witch": "2023-03-01 21:01:10 -0800",
       "minecraft:enderman": "2023-02-26 21:41:47 -0800",
       "minecraft:zombie": "2023-02-25 22:34:49 -0800"
     },
@@ -693,6 +700,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-03-01 21:23:02 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2023-02-25 20:03:50 -0800"
@@ -780,6 +793,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2023-02-24 17:34:55 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2023-03-01 22:11:57 -0800"
     },
     "done": true
   },
@@ -1298,6 +1317,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-03-01 22:06:17 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2023-02-25 17:46:42 -0800"
@@ -1604,6 +1629,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-03-01 22:06:17 -0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-02-25 00:30:23 -0800",
@@ -1655,6 +1686,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2023-02-24 17:34:01 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-03-01 21:23:02 -0800"
     },
     "done": true
   },
@@ -2600,6 +2637,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2023-03-01 21:44:10 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2023-02-24 17:21:45 -0800"
@@ -2657,6 +2700,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2023-02-25 19:43:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2023-03-01 22:11:57 -0800"
     },
     "done": true
   },

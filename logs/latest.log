@@ -1,17 +1,11 @@
-[00:08:54] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
-[00:08:54] [Server thread/INFO]: NagaTheCutie left the game
-[07:20:18] [Server thread/INFO]: NagaTheCutie[/127.0.0.1:45711] logged in with entity id 222531 at (-93.35316330301562, 63.0, -15.601729368919763)
-[07:20:18] [Server thread/INFO]: NagaTheCutie joined the game
-[07:29:17] [Server thread/INFO]: NagaTheCutie lost connection: Disconnected
-[07:29:17] [Server thread/INFO]: NagaTheCutie left the game
-[17:17:28] [Server thread/INFO]: Stopping the server
-[17:17:29] [Server thread/INFO]: Stopping server
-[17:17:29] [Server thread/INFO]: Saving players
-[17:17:29] [Server thread/INFO]: Saving worlds
-[17:17:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:17:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:17:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:17:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:21:23] [Server thread/INFO]: Stopping the server
+[07:21:24] [Server thread/INFO]: Stopping server
+[07:21:24] [Server thread/INFO]: Saving players
+[07:21:24] [Server thread/INFO]: Saving worlds
+[07:21:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:21:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:21:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:21:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:21:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:21:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:21:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

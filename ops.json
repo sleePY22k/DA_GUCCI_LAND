@@ -16,5 +16,11 @@
     "name": "turtuleneckstew",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c3868878-1979-3bc4-a62d-ca61d6dbfca3",
+    "name": "TurtleNeckStew64",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
