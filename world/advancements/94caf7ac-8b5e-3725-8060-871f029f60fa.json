@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2023-01-29 20:32:21 -0800"
@@ -848,6 +854,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-01-31 16:56:12 -0800",
+      "minecraft:blaze": "2023-03-02 14:04:56 -0800",
       "minecraft:skeleton": "2023-01-30 16:33:02 -0800",
       "minecraft:ravager": "2023-02-12 14:20:41 -0800",
       "minecraft:ghast": "2023-01-30 17:48:07 -0800",
@@ -861,6 +868,7 @@
       "minecraft:phantom": "2023-02-04 11:05:38 -0800",
       "minecraft:zombified_piglin": "2023-01-30 21:12:32 -0800",
       "minecraft:witch": "2023-01-31 17:50:37 -0800",
+      "minecraft:wither_skeleton": "2023-03-02 14:06:47 -0800",
       "minecraft:husk": "2023-01-30 20:16:16 -0800",
       "minecraft:shulker": "2023-02-26 21:51:59 -0800",
       "minecraft:cave_spider": "2023-02-18 17:32:54 -0800",
@@ -987,6 +995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2023-02-11 17:20:52 -0800"
@@ -1032,6 +1046,12 @@
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-02-01 18:20:00 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
     },
     "done": true
   },
@@ -1230,6 +1250,12 @@
   "minecraft:recipes/building_blocks/crimson_slab": {
     "criteria": {
       "has_planks": "2023-02-09 17:50:18 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
     },
     "done": true
   },
@@ -1626,6 +1652,12 @@
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-01-30 18:41:50 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
     },
     "done": true
   },
@@ -2262,6 +2294,12 @@
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-02-05 15:52:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
     },
     "done": true
   },
@@ -3181,6 +3219,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2023-01-30 16:49:00 -0800"
@@ -3220,6 +3264,12 @@
   "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2023-02-11 17:34:06 -0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-03-02 14:04:34 -0800"
     },
     "done": true
   },
@@ -3601,6 +3651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-01-29 21:23:27 -0800"
@@ -3748,6 +3804,12 @@
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2023-02-05 13:49:08 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2023-03-02 14:03:09 -0800"
     },
     "done": true
   },
