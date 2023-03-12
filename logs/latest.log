@@ -1,26 +1,122 @@
-[16:12:01] [Server thread/INFO]: Stopping the server
-[16:12:01] [Server thread/INFO]: Stopping server
-[16:12:01] [Server thread/INFO]: Saving players
-[16:12:01] [Server thread/INFO]: Saving worlds
-[16:12:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 264 entity chunks, 2 poi chunks in world 'world' in 0.04s
-[16:12:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:12:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saved 106 block chunks, 88 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
-[16:12:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:12:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:12:01] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 41 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[16:12:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:12:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:12:01] [Server thread/INFO]: Flushing Chunk IO
-[16:12:01] [Server thread/INFO]: Closing Thread Pool
-[16:12:01] [Server thread/INFO]: Closing Server
+[00:02:53] [Server thread/WARN]: SammyHammy9433 moved too quickly! 3.6595727840203836,-23.0,-7.250208460719577
+[00:04:08] [Server thread/WARN]: SammyHammy9433 moved too quickly! -3.6654571922576906,-30.0,4.825954715733275
+[00:04:49] [Server thread/WARN]: TheGreatRamsis moved too quickly! -0.44349760858585796,-16.0,-6.321077176135319
+[00:05:37] [Server thread/WARN]: TheGreatRamsis moved too quickly! -6.134689221641111,-13.0,-4.197184577122982
+[00:14:14] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[00:14:14] [Server thread/INFO]: SammyHammy9433 left the game
+[00:14:15] [Server thread/INFO]: TheGreatRamsis lost connection: Disconnected
+[00:14:15] [Server thread/INFO]: TheGreatRamsis left the game
+[15:13:46] [User Authenticator #2/INFO]: UUID of player TheGreatRamsis is 40474538-b29e-4f5b-b463-fc42cb4f5d32
+[15:13:46] [Server thread/INFO]: TheGreatRamsis joined the game
+[15:13:46] [Server thread/INFO]: TheGreatRamsis[/[0:0:0:0:0:0:0:1]:56309] logged in with entity id 9554 at ([world_the_end]1681.5998813630497, 58.0, 405.8568545469117)
+[15:14:38] [User Authenticator #2/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:14:38] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:14:38] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:56338] logged in with entity id 9664 at ([world_the_end]1677.09301771223, 57.0, 404.70000005511525)
+[15:27:32] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:27:32] [Server thread/INFO]: SammyHammy9433 left the game
+[15:27:38] [User Authenticator #3/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:27:38] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:27:38] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:56773] logged in with entity id 11629 at ([world_the_end]1335.2445312552707, 64.0, 1071.139684622881)
+[15:27:41] [Server thread/WARN]: TheGreatRamsis moved too quickly! -2.6449715956262025,-12.0,-4.442824467479568
+[15:27:44] [Server thread/WARN]: TheGreatRamsis moved too quickly! -6.855080999364418,-13.0,-2.275924772326107
+[15:27:47] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:27:47] [Server thread/INFO]: SammyHammy9433 left the game
+[15:28:17] [User Authenticator #3/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:28:17] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:28:17] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:56796] logged in with entity id 11678 at ([world_the_end]1360.550162116041, 58.0, 1053.1724205281198)
+[15:28:19] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:28:19] [Server thread/INFO]: SammyHammy9433 left the game
+[15:28:23] [User Authenticator #3/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:28:23] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:28:23] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:56801] logged in with entity id 11684 at ([world_the_end]1359.9645343013367, 58.0, 1051.9410351715462)
+[15:37:07] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:37:07] [Server thread/INFO]: SammyHammy9433 left the game
+[15:38:06] [User Authenticator #4/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:38:06] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:38:06] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:57180] logged in with entity id 13122 at ([world_the_end]1540.9875217985755, 58.0, 1475.507042324999)
+[15:38:08] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:38:08] [Server thread/INFO]: SammyHammy9433 left the game
+[15:38:14] [User Authenticator #4/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:38:14] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:38:14] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:57184] logged in with entity id 13126 at ([world_the_end]1540.9237657529666, 58.0, 1475.5264437135436)
+[15:39:14] [Server thread/WARN]: SammyHammy9433 moved too quickly! -7.799751239457919,-9.0,-5.844074279270444
+[15:39:56] [Server thread/WARN]: SammyHammy9433 moved too quickly! -2.850073021635353,-12.0,7.889033960094366
+[15:41:08] [Server thread/WARN]: SammyHammy9433 moved too quickly! 4.60340790532382,-10.0,-5.90574312003514
+[15:41:16] [Server thread/WARN]: TheGreatRamsis moved too quickly! 6.896215523193177,-29.0,-6.748403277528496
+[15:41:19] [Server thread/WARN]: TheGreatRamsis moved too quickly! -6.204244752544582,-12.0,-6.2299703949295235
+[15:41:37] [Server thread/WARN]: SammyHammy9433 moved too quickly! -6.716886220070137,-53.0,0.211109028662122
+[15:42:40] [Server thread/WARN]: SammyHammy9433 moved too quickly! 1.7958054847586027,-20.0,5.327756981065249
+[15:44:09] [Server thread/WARN]: SammyHammy9433 moved too quickly! -5.331445008681612,-61.0,5.31000861632333
+[15:44:09] [Server thread/INFO]: SammyHammy9433 has completed the challenge [Great View From Up Here]
+[15:45:50] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:45:50] [Server thread/INFO]: SammyHammy9433 left the game
+[15:45:56] [User Authenticator #5/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:45:56] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:45:56] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:57445] logged in with entity id 14058 at ([world_the_end]1694.9949541214842, 118.36080000519752, 1369.3656848935952)
+[15:46:40] [Server thread/WARN]: TheGreatRamsis moved too quickly! -5.672643626882291,-57.0,-5.673178111621837
+[15:48:44] [Server thread/WARN]: SammyHammy9433 moved too quickly! -0.5350706837534744,-22.0,1.779058383417123
+[15:51:30] [Server thread/WARN]: TheGreatRamsis moved too quickly! -6.7109530583329615,-75.0,5.807695244144952
+[15:51:30] [Server thread/INFO]: TheGreatRamsis has completed the challenge [Great View From Up Here]
+[15:51:36] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[15:51:36] [Server thread/INFO]: SammyHammy9433 left the game
+[15:52:19] [User Authenticator #6/INFO]: UUID of player SammyHammy9433 is a31370d6-190d-42a3-b981-8d1e3223092a
+[15:52:19] [Server thread/INFO]: SammyHammy9433 joined the game
+[15:52:19] [Server thread/INFO]: SammyHammy9433[/[0:0:0:0:0:0:0:1]:57672] logged in with entity id 14751 at ([world_the_end]1689.300000011921, 62.387947502195836, 1364.730195429493)
+[15:54:15] [Server thread/WARN]: SammyHammy9433 moved too quickly! -7.323294490686294,0.0,7.444108701567529
+[15:55:12] [Server thread/WARN]: TheGreatRamsis moved too quickly! 7.6448724455058255,0.0,7.770415959887941
+[16:01:13] [Server thread/INFO]: TheGreatRamsis lost connection: Disconnected
+[16:01:13] [Server thread/INFO]: TheGreatRamsis left the game
+[16:01:21] [User Authenticator #7/INFO]: UUID of player TheGreatRamsis is 40474538-b29e-4f5b-b463-fc42cb4f5d32
+[16:01:21] [Server thread/INFO]: TheGreatRamsis joined the game
+[16:01:21] [Server thread/INFO]: TheGreatRamsis[/[0:0:0:0:0:0:0:1]:58010] logged in with entity id 16523 at ([world_the_end]1528.6740930031933, 57.360800005197525, 2860.556244068034)
+[16:04:21] [Server thread/INFO]: TheGreatRamsis has made the advancement [Diamonds!]
+[16:05:36] [User Authenticator #8/INFO]: UUID of player TheGreatRamsis is 40474538-b29e-4f5b-b463-fc42cb4f5d32
+[16:05:36] [Server thread/INFO]: TheGreatRamsis lost connection: You logged in from another location
+[16:05:36] [Server thread/INFO]: TheGreatRamsis left the game
+[16:05:36] [Server thread/INFO]: TheGreatRamsis joined the game
+[16:05:36] [Server thread/INFO]: TheGreatRamsis[/[0:0:0:0:0:0:0:1]:58433] logged in with entity id 17348 at ([world_the_end]1639.3927513648246, 108.20000004768372, 2954.060515714237)
+[16:05:48] [Server thread/WARN]: TheGreatRamsis moved too quickly! -0.46129860789665145,-17.0,-1.2645895703517454
+[16:05:53] [Server thread/WARN]: TheGreatRamsis moved too quickly! 6.2798354026849665,-13.0,1.432706290218448
+[16:07:50] [Server thread/WARN]: SammyHammy9433 moved too quickly! 7.874850681604357,-40.0,6.236183933677239
+[16:08:40] [Server thread/WARN]: SammyHammy9433 moved too quickly! -5.623574113559016,-30.0,4.854320816888048
+[16:08:52] [Server thread/WARN]: SammyHammy9433 moved too quickly! 7.11474409116704,-8.0,6.804883716388758
+[16:10:02] [Server thread/WARN]: SammyHammy9433 moved too quickly! -0.7234247183193929,-47.0,-7.661525074472138
+[16:11:31] [Server thread/WARN]: SammyHammy9433 moved too quickly! 5.201051305603869,-51.0,-5.593754616440947
+[16:12:53] [Server thread/WARN]: TheGreatRamsis moved too quickly! 7.423571849577456,-54.0,5.292570586019792
+[16:13:55] [Server thread/INFO]: TheGreatRamsis lost connection: Disconnected
+[16:13:55] [Server thread/INFO]: TheGreatRamsis left the game
+[16:14:01] [User Authenticator #9/INFO]: UUID of player TheGreatRamsis is 40474538-b29e-4f5b-b463-fc42cb4f5d32
+[16:14:01] [Server thread/INFO]: TheGreatRamsis joined the game
+[16:14:01] [Server thread/INFO]: TheGreatRamsis[/[0:0:0:0:0:0:0:1]:58965] logged in with entity id 18686 at ([world_the_end]1634.9824546989921, 64.0, 2935.7680264639725)
+[16:17:31] [Server thread/INFO]: SammyHammy9433 lost connection: Disconnected
+[16:17:31] [Server thread/INFO]: SammyHammy9433 left the game
+[16:33:47] [Server thread/WARN]: TheGreatRamsis moved too quickly! -7.806011958017734,2.0,5.971390242355483
+[16:37:43] [Server thread/WARN]: TheGreatRamsis moved too quickly! 6.73578056875067,-3.0,7.3344221921925055
+[16:55:46] [Server thread/INFO]: TheGreatRamsis lost connection: Disconnected
+[16:55:46] [Server thread/INFO]: TheGreatRamsis left the game
+[17:29:07] [Server thread/INFO]: Stopping the server
+[17:29:07] [Server thread/INFO]: Stopping server
+[17:29:07] [Server thread/INFO]: Saving players
+[17:29:07] [Server thread/INFO]: Saving worlds
+[17:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 86 entity chunks, 5 poi chunks in world 'world' in 0.03s
+[17:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 106 block chunks, 88 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[17:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:29:07] [Server thread/INFO]: Flushing Chunk IO
+[17:29:07] [Server thread/INFO]: Closing Thread Pool
+[17:29:07] [Server thread/INFO]: Closing Server
